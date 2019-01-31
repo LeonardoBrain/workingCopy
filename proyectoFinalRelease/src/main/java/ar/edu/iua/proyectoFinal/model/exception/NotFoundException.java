@@ -32,6 +32,8 @@ public class NotFoundException extends Exception {
 
     }
 
-
-
+    @Override
+    public String getMessage() {
+        return "No se encontro lo que se solicito";
+    }
 }

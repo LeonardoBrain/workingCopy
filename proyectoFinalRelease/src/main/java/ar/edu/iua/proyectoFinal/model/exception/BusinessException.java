@@ -12,4 +12,9 @@ public class BusinessException extends Exception {
     public BusinessException() {
 
     }
+
+    @Override
+    public String getMessage() {
+        return "Hubo un problema en el Request";
+    }
 }

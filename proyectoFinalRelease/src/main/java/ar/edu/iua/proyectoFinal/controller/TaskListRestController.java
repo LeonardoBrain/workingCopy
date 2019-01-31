@@ -37,10 +37,10 @@ public class TaskListRestController {
             responseHeaders.set("location", "/tasklist/" + taskList.getTaskListId());
             return new ResponseEntity<TaskList>(responseHeaders, HttpStatus.CREATED);
         } catch (BusinessException e) {
-            log.error("Error al realizar el request");
+            log.error(e.getMessage());
             return new ResponseEntity<TaskList>( HttpStatus.BAD_REQUEST);
         }catch (Exception e){
-            log.error("Error interno del server");
+            log.error(e.getMessage());
             return new ResponseEntity<TaskList>( HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
@@ -56,7 +56,7 @@ public class TaskListRestController {
            taskList= taskListBusiness.getOne(id);
 
        }catch (NotFoundException e){
-           log.error("Error no se encontro la lista");
+           log.error(e.getMessage());
            return new ResponseEntity<TaskList>(HttpStatus.NOT_FOUND);
        }
 

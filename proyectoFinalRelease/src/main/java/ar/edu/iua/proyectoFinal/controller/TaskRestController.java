@@ -37,10 +37,10 @@ public class TaskRestController {
             responseHeaders.set("location", "/task/" + task.getTaskId());
             return new ResponseEntity<Task>(responseHeaders, HttpStatus.CREATED);
         } catch (BusinessException e) {
-            log.error("Error al realizar el request");
+            log.error(e.getMessage());
             return new ResponseEntity<Task>(HttpStatus.BAD_REQUEST);
         } catch (Exception e) {
-            log.error("Error interno del server");
+            log.error(e.getMessage());
             return new ResponseEntity<Task>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
@@ -57,10 +57,10 @@ public class TaskRestController {
             Task task1 = taskBusiness.update(task);
             return new ResponseEntity<Task>(task1, HttpStatus.OK);
         } catch (BusinessException e) {
-            log.error(e.getMessage(),e);
+            log.error(e.getMessage());
             return new ResponseEntity<Task>(HttpStatus.BAD_REQUEST);
         } catch (NotFoundException e1) {
-            log.error("Error no se encontro la lista de tareas");
+            log.error(e1.getMessage());
             return new ResponseEntity<Task>(HttpStatus.NOT_FOUND);
         } catch (Exception e) {
             log.error("Error interno del server");
@@ -80,7 +80,7 @@ public class TaskRestController {
 
 
         } catch (NotFoundException e) {
-            log.error("Error no se encontro la tarea");
+            log.error(e.getMessage());
             return new ResponseEntity<Task>(HttpStatus.NOT_FOUND);
 
         }
@@ -116,10 +116,10 @@ public class TaskRestController {
 
 
         } catch (BusinessException e) {
-            log.error("Error al hacer el Request");
+            log.error(e.getMessage());
             return new ResponseEntity<List<Task>>(HttpStatus.BAD_REQUEST);
         } catch (NotFoundException e) {
-            log.error("Error la lista de tareas");
+            log.error(e.getMessage());
 
 
         }
@@ -159,7 +159,7 @@ public class TaskRestController {
 
 
         } catch (NotFoundException e) {
-            log.error("Error no se encontro la tarea");
+            log.error(e.getMessage());
             return new ResponseEntity(HttpStatus.NOT_FOUND);
 
         }
