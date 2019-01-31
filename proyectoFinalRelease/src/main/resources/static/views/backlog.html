@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+</head>
+<body>
+
+<div class="page-header">
+    <h1>Backlog</h1>
+</div>
+
+<button  class="btn btn-primary " ng-click="newTaskModal('Backlog',1)">Add Task</button>
+<br>
+<br>
+<div style="max-height: 60vh" class="list-group pre-scrollable"  data-ng-init="loadBacklog()">
+    <a href="#" class="list-group-item active" ng-repeat="tasks in dataSource">
+        <h4 class="list-group-item-heading">{{tasks.name}}</h4>
+        <p class="list-group-item-text">Priority: {{tasks.priority}}</p>
+        <p class="list-group-item-text">Creation Date: {{tasks.creationDate}}</p>
+        <p class="list-group-item-text">Modification Date: {{tasks.modificationDate}}</p>
+    </a>
+</div>
+
+
+
+
+</body>
+</html>

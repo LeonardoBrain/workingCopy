@@ -1,0 +1,41 @@
+<div class="modal-header">
+    <h3 class="modal-title">New task</h3>
+</div>
+<div class="modal-body">
+
+    <form>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input id="name" class="form-control" type="text" ng-model="$taskModalCtrl.instancia.name"/>
+
+
+
+            <label for="priority">Priority</label>
+            <select class="form-control" id="priority" ng-model="$taskModalCtrl.instancia.priority">
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+                <option>{{taskListToAddName}}</option>
+                <option>{{taskListToAddId}}</option>
+            </select>
+
+
+            <label for="estimatedTime">Estimated time:</label>
+            <input id="estimatedTime" class="form-control" type="text" ng-model="$taskModalCtrl.instancia.estimatedTime"/><br/>
+
+
+            <input id="taskListName" class="form-control" type="hidden" ng-model="$taskModalCtrl.instancia.taskList.name" value="{{taskListToAddName}}"/><br/>
+            <input id="taskListId" class="form-control" type="hidden" ng-model="$taskModalCtrl.instancia.taskList.taskListId" value="{{taskListToAddId}}"/><br/>
+        </div>
+    </form>
+
+
+</div>
+<div class="modal-footer">
+
+    <button class="btn btn-primary" type="submit"
+            ng-click="$taskModalCtrl.cancel()">Cancelar</button>
+    <button class="btn btn-success"
+            type="submit" ng-click="$taskModalCtrl.ok()">Aceptar</button>
+
+</div>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Active Sprint</title>
+</head>
+<body>
+
+<!-- The dnd-list directive allows to drop elements into it.
+     The dropped data will be added to the referenced list -->
+<div class="page-header">
+    <h1>Active Sprint <small>{{actualSprint}}</small></h1>
+</div>
+
+<div>
+
+    <select class="btn btn-primary dropdown-toggle" id="sprintSelect" ng-model="actualSprint" data-ng-init='getAllTaskLists()'>
+
+        <option ng-repeat="sprint in sprints" value="{{sprint}}" >{{sprint}}</option>
+
+    </select>
+  <br>
+    <br>
+<div class="simpleDemo row">
+
+    <div class="col-md-8">
+        <div class="row">
+            <div ng-repeat="(listName, list) in models.lists" class="col-md-3">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{listName}}</h3>
+                    </div>
+                    <div class="panel-body" ng-include="'views/simpleTaskList.html'"></div>
+                </div>
+            </div>
+        </div>
+
+        <div view-source="simple"></div>
+
+    </div>
+
+</div>
+
+</div>
+</body>
+</html>

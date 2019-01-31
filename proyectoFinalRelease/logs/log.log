@@ -1,0 +1,2 @@
+30-01-2019 22:39:06.580 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2019 22:39:07.211 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$e4991626.run Inicio de la Aplicacion
