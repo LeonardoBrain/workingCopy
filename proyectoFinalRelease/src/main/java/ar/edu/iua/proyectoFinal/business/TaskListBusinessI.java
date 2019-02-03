@@ -13,4 +13,5 @@ public interface TaskListBusinessI {
       TaskList getOne (int id) throws NotFoundException ;
       List<TaskList> getAllBySprintName (String sprintName) throws NotFoundException;
       List <String> getAllSprints() throws NotFoundException;
+      TaskList getTaskListByNameAndSprintName(String taskListName, String sprintName) throws NotFoundException;
 }

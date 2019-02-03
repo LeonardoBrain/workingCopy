@@ -19,15 +19,18 @@ angular.module('iw3')
     // CARGAR LAS LISTAS
     $scope.getAllTaskLists = function () {
 
+        //INICIALIZA EL OBJETO LISTS PARA METERLE LAS LISTAS ADENTRO
         $scope.models = {
             selected: null,
             lists: {}
         };
+
+        //CARGA LAS TAREAS EN LAS LISTAS SEGUN CORRESPONDA
         taskListService.getAllTaskListsBySprint($scope.actualSprint).then(
             function (resp) {
                 $scope.taskLists = resp.data;
 
-                for(var i=0 ; i<=$scope.taskLists.length ; i++){
+                for(var i=0 ; i<$scope.taskLists.length ; i++){
 
                     switch ($scope.taskLists[i].name) {
 
@@ -38,7 +41,6 @@ angular.module('iw3')
                                     $scope.models.lists.TODO=resp.data;
                                 },
                                 function (reason) {
-
                                 }
                             );
                             break;
@@ -50,6 +52,7 @@ angular.module('iw3')
                                 },
                                 function (reason) {
 
+                                    alert(reason.toString());
                                 }
                             );
                             break;
@@ -102,6 +105,7 @@ angular.module('iw3')
 
     };
 
+    //MODAL PARA TAREA NUEVA
     $scope.newTaskModal = function(tasklistName, taskListId){
         $scope.taskListToAdd.id = taskListId;
         $scope.taskListToAdd.name = tasklistName;
@@ -130,11 +134,13 @@ angular.module('iw3')
             });
     };
 
+    //AGREGAR TAREA
     $scope.addTask=function(){
         tasksService.addTask($scope.instancia).then(
             function(resp){
                 $scope.dataSource.push(resp.data);
                 $scope.instancia={};
+                $scope.loadBacklog();
             },
             function(err){}
         );
@@ -150,12 +156,27 @@ angular.module('iw3')
         );
     };
 
-    $scope.moveTask = function(taskId, listBody){
-        
-        tasksService.moveTask(taskId, listBody);
+    //MOVER TAREA
+    $scope.moveTask = function(task,taskListName){
+
+        taskListName === 'InProgress' ? taskListName='In Progress' : taskListName;
+
+        taskListService.getAllTaskListsByTaskListNameAndSprintName(taskListName, $scope.actualSprint).then(
+            function (resp) {
+                task.taskList = resp.data;
+                tasksService.moveTask(task.taskId, task).then(function () {
+                    $scope.getAllTaskLists();
+                });
+            },
+            function(reason){}
+        );
+    };
+
+    $scope.deleteTask = function(taskId){
+        tasksService.deleteTask(taskId).then(function (value) {
+            $scope.loadBacklog();
+        })
     }
-
-
 
 
 
@@ -165,7 +186,7 @@ angular.module('iw3')
         $scope.modelAsJson = angular.toJson(model, true);
     }, true);
 
-    $('#sprintSelect').on("mouseleave", function() {
+    $('#sprintSelect').on("click", function() {
         $scope.getAllTaskLists();
     } );
 });

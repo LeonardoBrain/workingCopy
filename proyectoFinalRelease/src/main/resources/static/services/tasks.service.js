@@ -19,7 +19,11 @@ angular.module('iw3')
 
         },
         moveTask : function(id, task){
-            return $http.put(URL_API_BASE+"task/"+id,task);
+            return $http.put(URL_API_BASE+"task/?id="+id+"",task);
+        },
+        deleteTask: function (id) {
+            return $http.delete(URL_API_BASE+"task/"+id+"");
+
         }
 
     }

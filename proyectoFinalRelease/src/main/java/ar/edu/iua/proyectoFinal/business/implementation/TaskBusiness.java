@@ -83,7 +83,6 @@ public class TaskBusiness implements TaskBusinessI {
 
     @Override
     public void delete(Task task) throws NotFoundException {
-        FactoryDAO.getInstance().getTaskDAO().delete(task);
 
         if(taskRepository.existsById(task.getTaskId())){
 

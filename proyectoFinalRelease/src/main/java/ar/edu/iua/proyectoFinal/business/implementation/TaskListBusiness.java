@@ -80,4 +80,9 @@ public class TaskListBusiness implements TaskListBusinessI {
             throw new NotFoundException();
         }
     }
+
+    public TaskList getTaskListByNameAndSprintName(String taskListName, String sprintName) throws NotFoundException{
+
+        return taskListRepository.findByNameAndSprintName(taskListName, sprintName);
+    }
 }

@@ -15,7 +15,7 @@ public interface TaskListRepository extends JpaRepository<TaskList,Integer> {
     TaskList findByNameAndSprintName(String name, String sprintName);
     List<TaskList> findBySprintName(String sprintName);
 
-    @Query(value = "select distinct sprint_name from task_list", nativeQuery = true)
+    @Query(value = "select distinct sprint_name from task_list where sprint_name!='Backlog'", nativeQuery = true)
     List<String> findAllSprints();
 
 

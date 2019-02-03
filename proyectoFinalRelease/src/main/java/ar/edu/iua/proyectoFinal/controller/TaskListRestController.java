@@ -65,6 +65,24 @@ public class TaskListRestController {
 
     }
 
+    @GetMapping("/one")
+    public ResponseEntity<TaskList> getTaskListByTaskListNameAndSprintName(@RequestParam(required = false, value = "task_list_name", defaultValue = "*") String taskListName,
+                                                                           @RequestParam(required = false, value = "sprint_name", defaultValue = "*") String sprintName){
+        TaskList taskList;
+
+        try {
+            taskList= taskListBusiness.getTaskListByNameAndSprintName(taskListName, sprintName);
+
+        }catch (NotFoundException e){
+            log.error(e.getMessage());
+            return new ResponseEntity<TaskList>(HttpStatus.NOT_FOUND);
+        }
+
+
+        return new ResponseEntity<TaskList>(taskList, HttpStatus.OK);
+
+    }
+
     @GetMapping({"/",""})
     public ResponseEntity<List<TaskList>> getAllTaskListsBySprint(@RequestParam(required = false, value = "sprint_name", defaultValue = "*") String sprintName){
         List<TaskList> tl;

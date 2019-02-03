@@ -9,6 +9,10 @@ angular.module('iw3')
             getAllTaskListsBySprint : function(sprintName){
                 return $http.get(URL_API_BASE+"taskList?sprint_name="+sprintName+"");
             },
+            getAllTaskListsByTaskListNameAndSprintName: function (taskListName, sprintName) {
+                return $http.get(URL_API_BASE+"taskList/one?task_list_name="+taskListName+"&sprint_name="+sprintName+"");
+
+            }
         }
 
     });

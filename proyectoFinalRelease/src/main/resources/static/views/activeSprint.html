@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Active Sprint</title>
+    <title>Tasks By Sprint</title>
 </head>
 <body>
 
 <!-- The dnd-list directive allows to drop elements into it.
      The dropped data will be added to the referenced list probando github -->
 <div class="page-header">
-    <h1>Active Sprint probando atrADAS<small>{{actualSprint}}</small></h1>
+    <h1>Sprint<small>{{actualSprint}}</small></h1>
 </div>
 
 <div>
 
     <select class="btn btn-primary dropdown-toggle" id="sprintSelect" ng-model="actualSprint" data-ng-init='getAllTaskLists()'>
 
-        <option ng-repeat="sprint in sprints" value="{{sprint}}" >{{sprint}}</option>
+        <option ng-repeat="sprint in sprints"  value="{{sprint}}">{{sprint}}</option>
 
     </select>
   <br>
