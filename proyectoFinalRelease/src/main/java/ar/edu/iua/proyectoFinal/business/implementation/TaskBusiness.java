@@ -42,7 +42,7 @@ public class TaskBusiness implements TaskBusinessI {
     }
 
     @Override
-    public Task update(Task task) throws BusinessException, NotFoundException {
+    public Task update(Task task, boolean isAdmin) throws BusinessException, NotFoundException {
 
         Task noUpdatedTask = getOne(task.getTaskId());
         String originalList = noUpdatedTask.getTaskList().getName();
@@ -52,14 +52,19 @@ public class TaskBusiness implements TaskBusinessI {
         switch (originalList) {
 
             case "Backlog":
-                if (destinationList.equals("TODO") && noUpdatedTask.getEstimatedTime() > 0) {
-                    task.setModificactionDate(utilFunctions.getCurrentTimeUsingDate());
-                    taskRepository.save(task);
-                } else {
+                if(isAdmin!=true){
+                    break;
+                }else {
 
-                    throw new BusinessException();
+                    if (destinationList.equals("TODO") && noUpdatedTask.getEstimatedTime() > 0) {
+                        task.setModificactionDate(utilFunctions.getCurrentTimeUsingDate());
+                        taskRepository.save(task);
+                    } else {
+
+                        throw new BusinessException();
+                    }
+                    break;
                 }
-                break;
 
             case "TODO":
             case "In Progress":

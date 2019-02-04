@@ -400,3 +400,355 @@ javax.persistence.NonUniqueResultException: query did not return a unique result
 03-02-2019 20:12:30.431 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$9d3d1684.run Inicio de la Aplicacion
 03-02-2019 20:12:57.330 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 03-02-2019 20:12:57.925 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ba7f585a.run Inicio de la Aplicacion
+04-02-2019 15:05:40.519 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 15:05:40.976 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 15:05:41.070 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ea4a2459.run Inicio de la Aplicacion
+04-02-2019 15:05:47.788 a.e.i.p.c.TaskListRestController.getAllSprints No se encontro lo que se solicito
+04-02-2019 15:06:15.050 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 15:06:16.965 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 15:21:42.351 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 16:59:53.926 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 16:59:54.165 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 16:59:54.215 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ea4a2459.run Inicio de la Aplicacion
+04-02-2019 17:00:41.963 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:00:43.341 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:00:43.477 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$5d9ed0da.run Inicio de la Aplicacion
+04-02-2019 17:07:37.571 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:07:38.631 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:07:39.058 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1174b940.run Inicio de la Aplicacion
+04-02-2019 17:12:23.068 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:12:24.541 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:12:25.220 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$57a76d16.run Inicio de la Aplicacion
+04-02-2019 17:17:37.859 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:17:39.343 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:17:39.463 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$82c22856.run Inicio de la Aplicacion
+04-02-2019 17:20:26.980 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:20:28.317 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:20:28.435 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a25f08f0.run Inicio de la Aplicacion
+04-02-2019 17:30:17.000 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:30:18.412 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:30:18.539 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$4b7bd20d.run Inicio de la Aplicacion
+04-02-2019 17:37:37.394 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:37:38.435 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:37:38.794 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1b596fe7.run Inicio de la Aplicacion
+04-02-2019 17:38:55.486 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:38:56.637 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:38:57.004 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ecf89f86.run Inicio de la Aplicacion
+04-02-2019 17:41:47.293 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:41:48.559 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:41:48.679 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$59f9f146.run Inicio de la Aplicacion
+04-02-2019 17:42:36.200 o.s.s.c.bcrypt.BCryptPasswordEncoder.matches Encoded password does not look like BCrypt
+04-02-2019 17:42:36.203 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:42:39.223 o.s.s.c.bcrypt.BCryptPasswordEncoder.matches Encoded password does not look like BCrypt
+04-02-2019 17:42:39.224 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:42:39.666 o.s.s.c.bcrypt.BCryptPasswordEncoder.matches Encoded password does not look like BCrypt
+04-02-2019 17:42:39.678 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:42:39.835 o.s.s.c.bcrypt.BCryptPasswordEncoder.matches Encoded password does not look like BCrypt
+04-02-2019 17:42:39.836 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:42:40.323 o.s.s.c.bcrypt.BCryptPasswordEncoder.matches Encoded password does not look like BCrypt
+04-02-2019 17:42:40.325 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:42:40.515 o.s.s.c.bcrypt.BCryptPasswordEncoder.matches Encoded password does not look like BCrypt
+04-02-2019 17:42:40.516 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:42:41.106 o.s.s.c.bcrypt.BCryptPasswordEncoder.matches Encoded password does not look like BCrypt
+04-02-2019 17:42:41.107 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:39.450 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:40.993 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:41.453 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:41.620 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:41.803 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:41.974 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:42.498 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:44.551 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:44.891 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:45.068 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:45.247 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:44:45.731 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:50:21.293 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:50:22.401 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:50:22.776 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a9858c6c.run Inicio de la Aplicacion
+04-02-2019 17:50:22.884 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a9858c6c.run $2a$10$xGU6fbo0W1BQ9HF7BEPXiucJRNyd6.u3yID5oaqpvgGoNCIPGjRz6
+04-02-2019 17:50:48.491 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:50:48.889 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:50:49.060 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:50:49.219 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:50:49.370 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 17:53:00.902 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 17:53:01.976 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 17:53:02.405 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1dc2a765.run Inicio de la Aplicacion
+04-02-2019 17:53:02.524 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1dc2a765.run La contraseña 1234 es $2a$10$T.KMlgJv7gPfc/SnYuVO5usFZqq/zs8ggVqbzTfCJ2iGOhatH82ae
+04-02-2019 17:54:02.638 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 17:58:40.810 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 17:58:51.435 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:05:28.586 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:05:31.530 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:05:31.800 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c159bf9f.run Inicio de la Aplicacion
+04-02-2019 18:05:31.997 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c159bf9f.run La contraseña 1234 es $2a$10$kweibxTcycXZthpOFkZHc.Uijg3MCSCElNOcFMTjnWZ/Z70yqZcZq
+04-02-2019 18:09:07.302 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:09:08.609 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:09:08.729 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$7cfa7033.run Inicio de la Aplicacion
+04-02-2019 18:09:08.836 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$7cfa7033.run La contraseña 1234 es $2a$10$3kxp45rTEGF9oZvd5wHIwO6kYvQJ5JBnGoLDY5g6KQe2wPbrubgWq
+04-02-2019 18:10:32.167 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:10:33.475 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:10:33.593 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1a58772.run Inicio de la Aplicacion
+04-02-2019 18:10:33.702 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1a58772.run La contraseña 1234 es $2a$10$UyGxcvYXKhBXJrFHRaYDIOoc/mDIibSkSkvfK8xiBdgoNXwyUoDYq
+04-02-2019 18:10:41.109 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:11:20.894 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:17:03.095 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:17:04.776 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:17:04.899 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$4f510e39.run Inicio de la Aplicacion
+04-02-2019 18:17:05.006 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$4f510e39.run La contraseña 1234 es $2a$10$sqceUm9SaK8T0Q3o9prtXeKALSAFFLqJhDakzATSyXq2.F0iyFpEy
+04-02-2019 18:17:07.306 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:18:31.462 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:23:06.144 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:23:07.473 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:23:07.595 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$5e0c0476.run Inicio de la Aplicacion
+04-02-2019 18:23:07.708 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$5e0c0476.run La contraseña 1234 es $2a$10$GkI9o8fgtHJBbhdBoLZGROc7gVAvjUebYT1Kvw1JnJhfIDT3OJ/Dy
+04-02-2019 18:23:13.687 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:23:27.975 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:24:13.869 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:30:42.810 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:31:09.311 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:31:10.829 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:31:11.085 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$9181c884.run Inicio de la Aplicacion
+04-02-2019 18:31:11.247 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$9181c884.run La contraseña 1234 es $2a$10$OfI.sOb2pUM9xfjqik7P2Oll4aJW6IxbPtABG6kJMejd9mDIFCOTa
+04-02-2019 18:33:34.410 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:34:23.044 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:34:24.343 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:34:24.459 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3ffa3410.run Inicio de la Aplicacion
+04-02-2019 18:34:24.569 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3ffa3410.run La contraseña 1234 es $2a$10$GDHsoxETvzJ6N9G8IFvA5uqDQtaj/e/.2RLsPOntz0KMIxamXFQa2
+04-02-2019 18:34:53.606 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:34:55.120 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:34:55.358 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c2aef646.run Inicio de la Aplicacion
+04-02-2019 18:34:55.499 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c2aef646.run La contraseña 1234 es $2a$10$he42MtI/VWW0VHRPFqX2CeuPMtC0.PibyJBIRXRnqY0tURmYM2il2
+04-02-2019 18:35:12.639 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:35:22.229 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:36:25.685 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:36:27.015 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:36:27.136 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$499322a1.run Inicio de la Aplicacion
+04-02-2019 18:36:27.248 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$499322a1.run La contraseña 1234 es $2a$10$r.0KeR2vXmynQHSfXvpRh.1yGVHhQ7keELJuXefxz3y1tprVuY/Mm
+04-02-2019 18:36:31.153 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:36:33.164 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:37:14.755 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:53:21.144 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:53:22.360 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:53:22.481 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2b5d45a3.run Inicio de la Aplicacion
+04-02-2019 18:53:22.588 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2b5d45a3.run La contraseña 1234 es $2a$10$AiOhX.Wqs1yrNNzrNi4speUusXNBl9X5KAkvpMjtVxCeRi/8oeooi
+04-02-2019 18:54:49.559 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 18:55:36.631 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 18:55:37.341 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 18:55:38.475 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 18:56:26.709 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 18:56:28.176 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 18:56:28.299 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$63229e00.run Inicio de la Aplicacion
+04-02-2019 18:56:28.410 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$63229e00.run La contraseña 1234 es $2a$10$tiY9tBJHWr36exNs/QthweNRtgOgvXWqPgxTq6xB1KIrwbhBwyzaq
+04-02-2019 18:56:41.160 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 18:56:41.474 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 18:56:41.658 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 18:56:41.802 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 19:06:12.311 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 19:06:13.805 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 19:06:13.922 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$83b962c3.run Inicio de la Aplicacion
+04-02-2019 19:06:14.036 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$83b962c3.run La contraseña 1234 es $2a$10$ECRH/xgMGgjNCWs92XDOEulngjhLJJWMUAHoKJo8XL/buRIn4l122
+04-02-2019 19:06:22.544 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+04-02-2019 19:06:59.930 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:10:24.435 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 19:10:25.515 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 19:10:25.628 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$534346fd.run Inicio de la Aplicacion
+04-02-2019 19:10:25.737 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$534346fd.run La contraseña 1234 es $2a$10$gAqMscj1.vJy2MyuukrMz.YeCl9j3HXYnwGMvvLPRKdfRAyVCr1xO
+04-02-2019 19:10:29.404 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:15:07.723 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 19:15:08.976 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 19:15:09.094 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8824371e.run Inicio de la Aplicacion
+04-02-2019 19:15:09.202 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8824371e.run La contraseña 1234 es $2a$10$wjPVN6qc9EGnpEb4fA9nv.6FkqCN2IoeEJwJABbA8k0KdIlX8mpAu
+04-02-2019 19:15:14.467 o.a.c.c.C.[.[.[.[dispatcherServlet].log Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at ar.edu.iua.proyectoFinal.controller.BaseRestController.getUserPrincipal(BaseRestController.java:15)
+	at ar.edu.iua.proyectoFinal.controller.CoreRestController.authInfo(CoreRestController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+04-02-2019 19:26:47.333 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 19:26:48.700 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 19:26:48.814 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3986bb02.run Inicio de la Aplicacion
+04-02-2019 19:26:48.924 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3986bb02.run La contraseña 1234 es $2a$10$gSPXYlgSCgws6tDwXL356uRzzfJzO0t/tqEUdGfym.RvMh/bEOD6W
+04-02-2019 19:27:58.928 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 19:28:00.320 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 19:28:00.466 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$46306f31.run Inicio de la Aplicacion
+04-02-2019 19:28:00.577 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$46306f31.run La contraseña 1234 es $2a$10$nzVM1p2T6s1iXS2M0vJGaeuFijdHkKvHBGFjt5pX9ZKChxxsZ6Cfy
+04-02-2019 19:30:44.475 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:31:17.541 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:31:17.938 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:31:18.333 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:31:18.735 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:31:19.826 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:33:13.170 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 19:33:14.616 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 19:33:14.762 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6d08dc32.run Inicio de la Aplicacion
+04-02-2019 19:33:14.874 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6d08dc32.run La contraseña 1234 es $2a$10$KEoHPhi7OmSdmdjbJmB0duFpE/z.7JZkKoDG7LFU0c7CkM.wugnje
+04-02-2019 19:33:18.282 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:51:27.076 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 19:51:28.376 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 19:51:28.490 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$fad9d230.run Inicio de la Aplicacion
+04-02-2019 19:51:28.598 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$fad9d230.run La contraseña 1234 es $2a$10$orkh6lAUn0AnfSyM5WB3S.wASzVl1Z.6NgBzQKxyqAiriBjVrIKHy
+04-02-2019 19:51:40.275 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:51:49.159 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:51:51.258 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:51:51.297 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:51:53.816 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:51:53.845 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:51:57.031 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:51:57.073 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:51:59.169 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:51:59.208 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:52:03.608 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:52:03.641 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:52:05.508 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:52:05.546 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:52:07.844 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:52:09.658 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:52:09.690 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:52:11.384 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:52:11.418 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:52:19.130 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `double` from String "aaaa": not a valid Double value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `double` from String "aaaa": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 53] (through reference chain: ar.edu.iua.proyectoFinal.model.Task["estimatedTime"])
+04-02-2019 19:52:22.414 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:52:42.283 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:52:45.809 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:54:00.638 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:54:02.013 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:54:05.464 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:54:05.493 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:54:07.260 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 19:54:07.283 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:54:08.901 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:54:10.834 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 19:54:51.052 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 19:54:52.557 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 19:54:52.671 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$29cc04ef.run Inicio de la Aplicacion
+04-02-2019 19:54:52.781 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$29cc04ef.run La contraseña 1234 es $2a$10$41UMxUUqtEAbmoZBUWrx1e8GZkYSKfwtk.F1NYkMIuH/kPzz3LR1C
+04-02-2019 19:54:54.995 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:58:57.821 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 19:58:59.136 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 19:58:59.256 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2f2bb084.run Inicio de la Aplicacion
+04-02-2019 19:58:59.364 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2f2bb084.run La contraseña 1234 es $2a$10$Ah0r4e9UFbiLYOfCyfI/4.aJ5fk5//5ZoxNl6TJVAVM9VmZFeg60q
+04-02-2019 19:59:10.738 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:59:12.339 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:59:13.308 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:59:44.190 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:59:45.598 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 19:59:46.006 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 20:00:42.409 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 20:00:43.715 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 20:00:43.830 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3699a43.run Inicio de la Aplicacion
+04-02-2019 20:00:43.938 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3699a43.run La contraseña 1234 es $2a$10$7UoHAVWDsUglL/Clb00SVeT/ElykI7uZh6vuP/QCTq7OnuRQt8Ra2
+04-02-2019 20:00:52.195 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 20:00:56.931 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:10.148 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-02-2019 20:02:11.357 o.s.b.d.a.OptionalLiveReloadServer.startServer Unable to start LiveReload server
+04-02-2019 20:02:11.479 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$eac0629e.run Inicio de la Aplicacion
+04-02-2019 20:02:11.588 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$eac0629e.run La contraseña 1234 es $2a$10$qiu3ZpaB6w58DMRgrVqQZOwVFmoN8JOe26uMkc7dggbnb5JwempFS
+04-02-2019 20:02:19.402 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+04-02-2019 20:02:21.484 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:23.697 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:25.557 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+04-02-2019 20:02:25.589 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:27.044 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:29.010 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:30.513 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:33.505 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:34.582 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:45.099 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+04-02-2019 20:02:46.347 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito

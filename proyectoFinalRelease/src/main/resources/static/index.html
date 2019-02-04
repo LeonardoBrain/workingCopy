@@ -1,94 +1,81 @@
 <!DOCTYPE html>
 <html ng-app="iw3">
+
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="bower_components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
+<link href="bower_components/angular-bootstrap/ui-bootstrap-csp.css" rel="stylesheet">
+<link href="bower_components/angucomplete-alt/angucomplete-alt.css" rel="stylesheet">
+<link href="bower_components/angular-ui-select/dist/select.min.css" rel="stylesheet">
+<link href="bower_components/adapt-strap/dist/adapt-strap.min.css" rel="stylesheet">
+<link href="bower_components/angular-ui-notification/dist/angular-ui-notification.min.css" rel="stylesheet">
+<link href="bower_components/angular-ui-switch/angular-ui-switch.min.css" rel="stylesheet">
+
+
+
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/moment/min/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-drag-and-drop-lists/angular-drag-and-drop-lists.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script type="text/javascript" src="bower_components/ng-stomp/dist/ng-stomp.standalone.min.js"></script>
+
+<script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-touch/angular-touch.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-utils-pagination/dirPagination.js"></script>
+<script type="text/javascript" src="bower_components/spin.js/spin.js"></script>
+<script type="text/javascript" src="bower_components/angular-spinner/angular-spinner.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-loading-spinner/angular-loading-spinner.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-select/dist/select.min.js"></script>
+<script type="text/javascript" src="bower_components/angucomplete-alt/dist/angucomplete-alt.min.js"></script>
+<script type="text/javascript" src="bower_components/adapt-strap/dist/adapt-strap.min.js"></script>
+<script type="text/javascript" src="bower_components/adapt-strap/dist/adapt-strap.tpl.min.js"></script>
+<script type="text/javascript" src="bower_components/ng-stomp/dist/ng-stomp.standalone.min.js"></script>
+
+<script type="text/javascript" src="bower_components/moment/locale/bo.js"></script>
+<script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-dragdrop/src/angular-dragdrop.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-drag-and-drop-lists/angular-drag-and-drop-lists.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+
+
+<script src="bower_components/angular-ui-switch/angular-ui-switch.min.js"></script>
+<script src="bower_components/angular-ui-switch/angular-ui-switch.min.js"></script>
+<script src="bower_components/angular-ui-notification/dist/angular-ui-notification.min.js"></script>
+
+
+
+
+
+
+
 <head>
     <meta charset="UTF-8">
     <title>Ingenieria web 3</title>
 
-
-    <script type="text/javascript" src="modules/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="modules/jquery-ui/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="modules/angular/angular.min.js"></script>
-    <script type="text/javascript"
-            src="modules/ng-stomp/dist/ng-stomp.standalone.min.js"></script>
-
-    <script src="modules/angular-ui-switch/angular-ui-switch.min.js"></script>
-
-    <script src="modules/chart.js/dist/Chart.min.js"></script>
-    <script src="modules/angular-chart.js/dist/angular-chart.min.js"></script>
-
-
-    <link href="modules/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
-
-    <link href="modules/angucomplete-alt/angucomplete-alt.css"
-          rel="stylesheet">
-    <link href="modules/angular-ui-select/dist/select.min.css"
-          rel="stylesheet">
-    <link href="modules/adapt-strap/dist/adapt-strap.min.css"
-          rel="stylesheet">
-    <link
-            href="modules/angular-ui-notification/dist/angular-ui-notification.min.css"
-            rel="stylesheet">
-    <link href="modules/angular-ui-switch/angular-ui-switch.min.css"
-          rel="stylesheet">
-
-
-    <script type="text/javascript"
-            src="modules/angular-route/angular-route.min.js"></script>
-    <script type="text/javascript"
-            src="modules/angular-sanitize/angular-sanitize.min.js"></script>
-    <script type="text/javascript"
-            src="modules/angular-animate/angular-animate.min.js"></script>
-    <script type="text/javascript"
-            src="modules/angular-touch/angular-touch.min.js"></script>
-
-    <script type="text/javascript"
-            src="modules/angular-utils-pagination/dirPagination.js"></script>
-
-    <script type="text/javascript" src="modules/spin.js/spin.js"></script>
-    <script type="text/javascript"
-            src="modules/angular-spinner/angular-spinner.min.js"></script>
-    <script type="text/javascript"
-            src="modules/angular-loading-spinner/angular-loading-spinner.js"></script>
-    <script type="text/javascript"
-            src="modules/angular-ui-select/dist/select.min.js"></script>
-    <script type="text/javascript"
-            src="modules/angucomplete-alt/dist/angucomplete-alt.min.js"></script>
-    <script type="text/javascript"
-            src="modules/adapt-strap/dist/adapt-strap.min.js"></script>
-    <script type="text/javascript"
-            src="modules/adapt-strap/dist/adapt-strap.tpl.min.js"></script>
-
-    <script type="text/javascript"
-            src="modules/angular-dragdrop/src/angular-dragdrop.min.js"></script>
-    <script
-            src="modules/angular-ui-notification/dist/angular-ui-notification.min.js"></script>
-
-    <script type="text/javascript"
-            src="modules/angular-drag-and-drop-lists/angular-drag-and-drop-lists.min.js"></script>
-
-    <script type="text/javascript"
-            src="modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <link href="modules/bootstrap/dist/css/bootstrap.min.css"
-    rel="stylesheet">
-    <link href="modules/bootstrap/dist/css/bootstrap-theme.min.css"
-          rel="stylesheet">
-    <link href="modules/angular-bootstrap/ui-bootstrap-csp.css"
-          rel="stylesheet">
-    <script type="text/javascript"
-            src="modules/angular-bootstrap/ui-bootstrap.min.js"></script>
-    <script type="text/javascript"
-            src="modules/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-
     <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="config/config.js"></script>
+    <script type="text/javascript" src="config/interceptors.js"></script>
+
     <script type="text/javascript" src="controllers/main.controller.js"></script>
     <script type="text/javascript" src="controllers/tasks.controller.js"></script>
     <script type="text/javascript" src="controllers/taskList.controller.js"></script>
+    <script type="text/javascript" src="controllers/login.form.controller.js"></script>
     <script type="text/javascript" src="controllers/addTaskModal.controller.js"></script>
 
     <script type="text/javascript" src="services/tasks.service.js"></script>
     <script type="text/javascript" src="services/taskList.service.js"></script>
+    <script type="text/javascript" src="services/core.service.js"></script>
+
 
     <link rel="stylesheet" type="text/css" href="views/dragNdrop.css" />
 
@@ -112,6 +99,12 @@
             <li><a class="pointer" ng-click="relocate('main')">Main</a></li>
             <li><a class="pointer" ng-click="relocate('backlog')">Backlog</a></li>
             <li><a class="pointer" ng-click="relocate('activeSprint')">Active Sprint</a></li>
+
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"  ><span class="glyphicon glyphicon-user"></span>{{user.name}}</a></li>
+            <li><a href="#" ng-click="logout(true);" ><span class="glyphicon glyphicon-log-in" >Logout</span></a></li>
         </ul>
     </div>
 </nav>

@@ -1,5 +1,5 @@
 angular.module('iw3').controller(
-    'AddTaskModalController', function ($scope,$uibModalInstance,instancia) {
+    'AddTaskModalController', function ($scope,$uibModalInstance,$rootScope,instancia) {
 
         var $taskModalCtrl=this;
         $taskModalCtrl.instancia=angular.copy(instancia);
@@ -14,5 +14,7 @@ angular.module('iw3').controller(
 
             return true;
         };
+
+        $rootScope.authInfo();
 
     });

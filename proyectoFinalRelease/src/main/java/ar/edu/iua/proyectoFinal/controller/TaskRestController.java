@@ -12,8 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,11 +52,12 @@ public class TaskRestController {
     @PutMapping(value = {"/",""})
     public ResponseEntity<Task> moveTask(
             @RequestParam(required = false, value = "id", defaultValue = "*") int id,
-            @RequestBody Task task) {
+            @RequestBody Task task,
+            HttpServletRequest request) {
         try {
             task.setTaskId(id);
 
-            Task task1 = taskBusiness.update(task);
+            Task task1 = taskBusiness.update(task, request.isUserInRole("ROLE_LIDER"));
             return new ResponseEntity<Task>(task1, HttpStatus.OK);
         } catch (BusinessException e) {
             log.error(e.getMessage());
@@ -149,6 +152,7 @@ public class TaskRestController {
 
 
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasRole('ROLE_LIDER')")
     public ResponseEntity deleteTask(@PathVariable int id) {
 
         try {

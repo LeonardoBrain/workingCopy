@@ -79,9 +79,18 @@ angular.module('iw3')
                             );
                             break;
                         case 'Backlog':
+                            $scope.models.lists.Backlog = [];
+                            tasksService.getTasksByListAndSprintName('Backlog', $scope.actualSprint).then(
+                                function (resp) {
+                                    $scope.models.lists.Backlog=resp.data;
+                                },
+                                function (reason) {
+
+                                }
+                            );
                             break;
                         default:
-                            alert('error');
+
                             break;
 
                     }
@@ -173,9 +182,16 @@ angular.module('iw3')
     };
 
     $scope.deleteTask = function(taskId){
-        tasksService.deleteTask(taskId).then(function (value) {
-            $scope.loadBacklog();
-        })
+        tasksService.deleteTask(taskId).then(function (resp) {
+            if (resp.status===200){
+                $scope.loadBacklog();
+            } else if (resp.status===403){
+                alert("No tiene permitido realizar esa accion");
+            }
+
+        }, function (reason) {
+
+        });
     }
 
 
@@ -189,4 +205,6 @@ angular.module('iw3')
     $('#sprintSelect').on("click", function() {
         $scope.getAllTaskLists();
     } );
+
+    $rootScope.authInfo();
 });

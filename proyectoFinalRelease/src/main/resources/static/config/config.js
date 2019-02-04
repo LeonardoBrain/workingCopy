@@ -1,7 +1,10 @@
 angular.module('iw3').config(
-                        function($routeProvider,$locationProvider){
+                        function($routeProvider,$locationProvider,$httpProvider,$logProvider){
 
+                            $logProvider.debugEnabled(true);
 
+                            $httpProvider.defaults.withCredentials = true;
+                            $httpProvider.interceptors.push('APIInterceptor');
 
                             $routeProvider
                                 .when('/main', {
