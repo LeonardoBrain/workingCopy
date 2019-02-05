@@ -7,6 +7,7 @@ angular.module('iw3').controller(
             $uibModalInstance.dismiss();
         };
         $taskModalCtrl.ok=function(){
+
             $uibModalInstance.close($taskModalCtrl.instancia);
 
         };

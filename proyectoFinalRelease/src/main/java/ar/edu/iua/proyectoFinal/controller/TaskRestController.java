@@ -37,7 +37,8 @@ public class TaskRestController {
             taskBusiness.add(task);
             HttpHeaders responseHeaders =  new HttpHeaders();
             responseHeaders.set("location", "/task/" + task.getTaskId());
-            return new ResponseEntity<Task>(responseHeaders, HttpStatus.CREATED);
+
+            return new ResponseEntity<Task>( responseHeaders, HttpStatus.CREATED);
         } catch (BusinessException e) {
             log.error(e.getMessage());
             return new ResponseEntity<Task>(HttpStatus.BAD_REQUEST);
@@ -48,6 +49,7 @@ public class TaskRestController {
 
 
     }
+
 
     @PutMapping(value = {"/",""})
     public ResponseEntity<Task> moveTask(

@@ -2,9 +2,12 @@ package ar.edu.iua.proyectoFinal.business.implementation;
 
 import ar.edu.iua.proyectoFinal.business.TaskBusinessI;
 import ar.edu.iua.proyectoFinal.model.Task;
+import ar.edu.iua.proyectoFinal.model.TaskList;
 import ar.edu.iua.proyectoFinal.model.exception.BusinessException;
 import ar.edu.iua.proyectoFinal.model.exception.NotFoundException;
 import ar.edu.iua.proyectoFinal.model.persistance.FactoryDAO;
+import ar.edu.iua.proyectoFinal.model.persistance.TaskDAO;
+import ar.edu.iua.proyectoFinal.model.persistance.TaskListRepository;
 import ar.edu.iua.proyectoFinal.model.persistance.TaskRepository;
 import ar.edu.iua.proyectoFinal.utils.UtilFunctions;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,18 +28,22 @@ public class TaskBusiness implements TaskBusinessI {
 
     @Autowired
     TaskRepository taskRepository;
+    @Autowired
+    TaskDAO taskDAO;
 
+    @Autowired
+    TaskListRepository taskListRepository;
     @Override
     public Task add(Task task) throws BusinessException {
 
-        if (task.getTaskList().getName().equals("Backlog") && (task.getPriority().equals("High") || task.getPriority().equals("Medium") || task.getPriority().equals("Low"))) {
-
+        if (task.getTaskList().getName().equals("Backlog") && task.getTaskList().getTaskListId()==100 && (task.getPriority().equals("High") || task.getPriority().equals("Medium") || task.getPriority().equals("Low"))) {
             task.setCreationDate(utilFunctions.getCurrentTimeUsingDate());
             task.setModificactionDate(utilFunctions.getCurrentTimeUsingDate());
 
             return taskRepository.save(task);
 
         } else {
+
             throw new BusinessException();
         }
     }
@@ -85,6 +92,7 @@ public class TaskBusiness implements TaskBusinessI {
 
        return task;
     }
+
 
     @Override
     public void delete(Task task) throws NotFoundException {
@@ -211,5 +219,7 @@ public class TaskBusiness implements TaskBusinessI {
 
         return FactoryDAO.getInstance().getTaskDAO().findAllByListName(list_name);
     }
+
+
 
 }

@@ -11,7 +11,7 @@
     <h1>Backlog</h1>
 </div>
 
-<button class="btn btn-primary " ng-click="newTaskModal('Backlog',0)">Add Task to Backlog</button>
+<button class="btn btn-primary " ng-click="newTaskModal('Backlog',100)">Add Task to Backlog</button>
 <br>
 <br>
 <div style="max-height: 60vh" class="list-group pre-scrollable"  data-ng-init="loadBacklog()">
@@ -20,7 +20,7 @@
         <p class="list-group-item-text">Priority: {{tasks.priority}}</p>
         <p class="list-group-item-text">Creation Date: {{tasks.creationDate}}</p>
         <p class="list-group-item-text">Modification Date: {{tasks.modificationDate}}</p>
-        <button class="btn btn-success">Include Task in Sprint</button>
+        <button class="btn btn-success" ng-click="includeTaskInSprint(tasks.taskId)">Include Task in Sprint</button>
         <button class="btn btn-danger" ng-click="deleteTask(tasks.taskId)">Delete Task</button>
     </a>
 </div>

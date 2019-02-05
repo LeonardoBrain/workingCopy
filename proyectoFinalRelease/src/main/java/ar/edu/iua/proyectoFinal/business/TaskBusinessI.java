@@ -13,6 +13,7 @@ public interface TaskBusinessI {
 
     Task add (Task task) throws BusinessException;
     Task update (Task task, boolean isAdmin) throws BusinessException, NotFoundException;
+
     void delete (Task task) throws NotFoundException;
     Task getOne (int id) throws NotFoundException;
 

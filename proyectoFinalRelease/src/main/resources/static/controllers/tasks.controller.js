@@ -148,7 +148,7 @@ angular.module('iw3')
     $scope.addTask=function(){
         tasksService.addTask($scope.instancia).then(
             function(resp){
-                $scope.dataSource.push(resp.data);
+               // $scope.dataSource.push(resp.data);
                 $scope.instancia={};
                 $scope.loadBacklog();
             },
@@ -179,7 +179,13 @@ angular.module('iw3')
                 });
             },
             function(reason){}
-        );
+        ); {
+                task.taskList = resp.data;
+                tasksService.moveTask(task.taskId, task).then(function () {
+                    $scope.getAllTaskLists();
+                });
+            }
+
     };
 
     $scope.deleteTask = function(taskId){
@@ -197,6 +203,7 @@ angular.module('iw3')
 
         });
     }
+
 
 
 

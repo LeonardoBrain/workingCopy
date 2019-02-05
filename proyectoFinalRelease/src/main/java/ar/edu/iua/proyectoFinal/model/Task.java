@@ -10,8 +10,9 @@ import javax.persistence.*;
 public class Task implements Comparable<Task> {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int taskId;
+
     private String name;
     private String creationDate;
     private String modificactionDate;

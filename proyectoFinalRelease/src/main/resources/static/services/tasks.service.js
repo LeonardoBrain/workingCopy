@@ -14,10 +14,12 @@ angular.module('iw3')
             return $http.get(URL_API_BASE + "task?list_id=" + id + "");
 
         },
+
         getTasksByListAndSprintName : function (listName, sprintName, orderBy) {
             return $http.get(URL_API_BASE+"task/all?list_name="+listName+"&sprint_name="+sprintName+"&order_by="+orderBy+"");
 
         },
+
         moveTask : function(id, task){
             return $http.put(URL_API_BASE+"task/?id="+id+"",task);
         },

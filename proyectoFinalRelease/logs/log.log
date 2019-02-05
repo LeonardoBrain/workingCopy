@@ -195,3 +195,520 @@
 	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#55]])
 	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
 05-02-2019 01:16:05.664 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 11:18:46.007 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 11:18:48.393 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1c7f2e3f.run Inicio de la Aplicacion
+05-02-2019 11:18:48.498 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1c7f2e3f.run La contraseña 1234 es $2a$10$lPahCKtDyMCQ3ezHBNLHpunbbnbZbKE7QEOeTpI0tBbu2hCG9nSZC
+05-02-2019 11:18:58.465 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+05-02-2019 11:19:00.945 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 11:19:00.952 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 11:19:03.083 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 11:19:06.543 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 11:19:08.973 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 11:19:08.979 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 11:19:15.885 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+05-02-2019 11:19:17.486 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:19:22.825 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+05-02-2019 11:19:22.846 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:19:34.641 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:19:42.980 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:19:46.656 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:19:50.391 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:19:54.525 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:20:02.596 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#23]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 11:20:02.605 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 11:26:28.029 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:26:29.276 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 11:26:29.283 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 11:26:30.875 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:26:30.880 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:26:30.883 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:26:33.084 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:26:35.127 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:26:35.130 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:26:35.133 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:26:40.412 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:45:07.307 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 11:45:08.789 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$821cf169.run Inicio de la Aplicacion
+05-02-2019 11:45:08.897 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$821cf169.run La contraseña 1234 es $2a$10$STuw.Q6e6LfySBVHnMXZPew.iH4juUwIIpF.XK1nayNGXGPeMtNsG
+05-02-2019 11:45:14.401 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:45:23.090 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#24]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 11:45:23.099 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 11:50:30.355 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 11:50:31.800 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$5a38d50b.run Inicio de la Aplicacion
+05-02-2019 11:50:31.908 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$5a38d50b.run La contraseña 1234 es $2a$10$cPnd4/8EPA/.mfeca0gfp.yuoifwt/k271eosK3L2G3ViO7jPsyNG
+05-02-2019 11:50:37.981 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:51:36.110 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 11:51:37.519 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$90cb82d9.run Inicio de la Aplicacion
+05-02-2019 11:51:37.627 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$90cb82d9.run La contraseña 1234 es $2a$10$SyEU6kt3VvnmDDVRRdtY4uhviwWzebY6z9qKjc/VH0Iw.kVWSkJ5i
+05-02-2019 11:51:49.336 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 11:52:00.436 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#25]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 11:52:00.446 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 12:04:09.650 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:04:11.049 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2be1fad.run Inicio de la Aplicacion
+05-02-2019 12:04:11.163 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2be1fad.run La contraseña 1234 es $2a$10$KGknnl5/WSKdW8m3KKX5SuF/TGHIR3AiA/DdMKQbefQl.mqCy/fIy
+05-02-2019 12:04:21.144 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:04:24.891 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 12:04:28.242 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:04:31.719 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:04:36.932 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:04:43.333 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#26]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 12:04:43.344 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 12:08:20.086 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:08:21.538 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$537e6812.run Inicio de la Aplicacion
+05-02-2019 12:08:21.645 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$537e6812.run La contraseña 1234 es $2a$10$Aq797I0faMUcIHAPmphTxOdePx1BvIysNlv9QutTk1xzVJ4ZtLCSC
+05-02-2019 12:08:47.846 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#27]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 12:08:47.855 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 12:11:38.769 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:11:40.260 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6a6dbf34.run Inicio de la Aplicacion
+05-02-2019 12:11:40.365 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6a6dbf34.run La contraseña 1234 es $2a$10$OCH7OyqQ6Vs4LDr184kVGep9Z6pBWgVcTNjcmcvzJXJELqcysTJEG
+05-02-2019 12:12:02.465 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:12:10.006 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#28]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 12:12:10.015 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 12:12:51.188 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:12:52.911 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$bfb82d3f.run Inicio de la Aplicacion
+05-02-2019 12:12:53.023 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$bfb82d3f.run La contraseña 1234 es $2a$10$xdmnPCWVuFIg/a.9AQsUburrvWjnwptFYElVEbcFEAfwko/mSUu.a
+05-02-2019 12:12:56.482 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:13:02.354 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#29]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 12:13:02.364 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 12:15:56.431 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:15:57.811 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c2633f30.run Inicio de la Aplicacion
+05-02-2019 12:15:57.918 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c2633f30.run La contraseña 1234 es $2a$10$GnufksksdTm6kOj2zQ0s/./KK04MTyITv3njIGj6xgzirSJKhTIsi
+05-02-2019 12:25:55.537 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:25:56.918 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3c8c860e.run Inicio de la Aplicacion
+05-02-2019 12:25:57.024 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3c8c860e.run La contraseña 1234 es $2a$10$.suWMeAYImlxXl60Qnbka.tqjIKuC8PKqMNkSCz1V7cxUanNT0cI.
+05-02-2019 12:26:20.613 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:26:21.205 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3c8c860e.run Inicio de la Aplicacion
+05-02-2019 12:26:21.307 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3c8c860e.run La contraseña 1234 es $2a$10$TLJaZohiBRTGOcXCHgjo.u6pG1bX5pSbS9E6x0o6ql.NYrKRovmO.
+05-02-2019 12:26:30.102 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:26:31.578 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$de6eea0e.run Inicio de la Aplicacion
+05-02-2019 12:26:31.685 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$de6eea0e.run La contraseña 1234 es $2a$10$hNHdYTRYP/bG.Y4hADAYC.bFPX1NvTPZGxZ8ZZ8fwwn6ivx6aoIki
+05-02-2019 12:29:36.530 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:29:37.952 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ae482095.run Inicio de la Aplicacion
+05-02-2019 12:29:38.059 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ae482095.run La contraseña 1234 es $2a$10$27vsHRk0ZaMu4/x2fTkY7eiagS.7pWUi2P2Zo06tQ6LxzhMzea/yO
+05-02-2019 12:29:48.754 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:29:55.793 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#<null>]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 12:29:55.806 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 12:33:02.489 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:33:03.380 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ae482095.run Inicio de la Aplicacion
+05-02-2019 12:33:03.535 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ae482095.run La contraseña 1234 es $2a$10$XSZifD0OBg948q91zG/HT.Ej8aDMCG72w9qqLnTVOFYXiVm0HIGKe
+05-02-2019 12:39:02.140 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:39:04.135 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$51ca7186.run Inicio de la Aplicacion
+05-02-2019 12:39:04.296 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$51ca7186.run La contraseña 1234 es $2a$10$hW2zswNIeZLXZb6oRUnUbOQWnNJWyRC14Q8bTaXTvz/kfKx/YYpZa
+05-02-2019 12:39:10.811 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:39:23.192 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 12:40:54.530 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:46:06.685 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 12:46:56.966 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:46:58.586 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c89739dd.run Inicio de la Aplicacion
+05-02-2019 12:46:58.748 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c89739dd.run La contraseña 1234 es $2a$10$wM4yVdAKPB0TLq/ogtxshudSr7NojwtBcTuwDG6hXjH7aDU78xmdO
+05-02-2019 12:49:22.097 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:49:24.128 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$25045e21.run Inicio de la Aplicacion
+05-02-2019 12:49:24.289 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$25045e21.run La contraseña 1234 es $2a$10$yeiVLZlkHZRctCDJhnYqJefcsoZx8HLkbOPHAsUwKy9I9AOCUNfcC
+05-02-2019 12:49:28.690 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:49:40.115 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 12:49:44.467 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:49:59.199 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 12:49:59.207 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 12:50:02.423 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:50:11.517 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:50:23.770 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 12:55:51.937 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:55:54.156 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2f7ba60f.run Inicio de la Aplicacion
+05-02-2019 12:55:54.317 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2f7ba60f.run La contraseña 1234 es $2a$10$qUY027CDqyweaX0WUzR2y.3LZVs196KAqrlBXbdoqxkeNireLom0y
+05-02-2019 12:56:14.491 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 12:56:14.551 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 12:59:06.346 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 12:59:07.832 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3f701adb.run Inicio de la Aplicacion
+05-02-2019 12:59:07.939 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3f701adb.run La contraseña 1234 es $2a$10$p6AaZI0pK67aaAl2w.ROA.xQQ.xvEgKd2Qx4hwVreyaFlmlJtXSyi
+05-02-2019 12:59:31.882 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 13:01:17.330 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:01:18.707 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3d5caf.run Inicio de la Aplicacion
+05-02-2019 13:01:18.812 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3d5caf.run La contraseña 1234 es $2a$10$/gBaeDmMY/wVpoXG1lp1z.bmP.FZnF/6CYFjB4qxI7sF4xzoZfu7C
+05-02-2019 13:01:28.723 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 13:02:45.402 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:02:46.797 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$e019591d.run Inicio de la Aplicacion
+05-02-2019 13:02:46.904 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$e019591d.run La contraseña 1234 es $2a$10$2U1hWH4dVeihWPoui6EEbunQkBeMQsexjkG5.HuRDfaJC7pqyFpPS
+05-02-2019 13:02:56.807 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#<null>]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 13:02:56.814 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 13:06:48.114 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:06:49.512 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$92789159.run Inicio de la Aplicacion
+05-02-2019 13:06:49.621 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$92789159.run La contraseña 1234 es $2a$10$hPrGSxGf1j5NiBsmsIT9Xu9LK6L/W9OkVIymj.kytZyiOqnRlqaoS
+05-02-2019 13:07:08.882 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:07:10.232 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$987f5353.run Inicio de la Aplicacion
+05-02-2019 13:07:10.339 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$987f5353.run La contraseña 1234 es $2a$10$ZVjLFC3qcGNGDGw5Cq0kLegOcqHix/GJ2WUEvmrqfw.hl4Ouo4cfC
+05-02-2019 13:07:22.762 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#<null>]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 13:07:22.767 a.e.i.p.c.TaskRestController.addTask Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 13:08:20.926 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:08:22.318 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$cf443d46.run Inicio de la Aplicacion
+05-02-2019 13:08:22.425 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$cf443d46.run La contraseña 1234 es $2a$10$bnDR43UMEGB3ww8Oxbx4zOu81.AtGAhwFEhJixZJ98ADomQkI.TUO
+05-02-2019 13:08:35.213 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 13:10:06.580 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:10:07.989 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$490b7d56.run Inicio de la Aplicacion
+05-02-2019 13:10:08.097 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$490b7d56.run La contraseña 1234 es $2a$10$ytML52S2ha0vi8dsNX9G9euDEDVgtxSqM7ZPS8RkkadOVLhtfwvJi
+05-02-2019 13:10:17.515 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 13:12:12.398 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:12:13.756 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$77d8e5c2.run Inicio de la Aplicacion
+05-02-2019 13:12:13.865 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$77d8e5c2.run La contraseña 1234 es $2a$10$yw8NV5osVq.2LaN4NL5oauuQr9F4TsfzfG4DEnahZKdVUggPU0cRa
+05-02-2019 13:12:29.283 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 13:13:46.063 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:13:47.505 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$34f6a9e.run Inicio de la Aplicacion
+05-02-2019 13:13:47.613 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$34f6a9e.run La contraseña 1234 es $2a$10$buBKkNTKE/VCaoQWBDM3W.DZNBR9JZ6Ls0OlmQ8aanNZA9rnt5mUy
+05-02-2019 13:14:01.327 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 13:15:14.588 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:15:15.923 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$88a124f.run Inicio de la Aplicacion
+05-02-2019 13:15:16.029 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$88a124f.run La contraseña 1234 es $2a$10$wfsffpEUwO0hHeC93Hrf2uBZEs2VR0Kf93CfjD.lGD1L2eIfReif2
+05-02-2019 13:15:27.211 a.e.i.p.c.TaskRestController.addTask null
+05-02-2019 13:16:00.857 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:16:02.210 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$cda95294.run Inicio de la Aplicacion
+05-02-2019 13:16:02.315 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$cda95294.run La contraseña 1234 es $2a$10$YUc0pkNCAoJvfkkDlrW.6OJ8IyUn4Xj4wgeuwf1fYi4ounh6IrC92
+05-02-2019 13:16:16.918 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#<null>]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 13:16:16.921 a.e.i.p.c.TaskRestController.addTask Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 13:20:27.837 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:20:29.252 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8100e2eb.run Inicio de la Aplicacion
+05-02-2019 13:20:29.358 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8100e2eb.run La contraseña 1234 es $2a$10$tAGkB6OC/JF6m7E6FwWBHen8vxy9D9Pqh7V8/i/6lpsIP7aYQtjvW
+05-02-2019 13:21:38.832 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:21:44.374 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#<null>]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 13:21:44.378 a.e.i.p.c.TaskRestController.addTask Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 13:21:44.411 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:22:19.668 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:22:21.016 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8bf9040d.run Inicio de la Aplicacion
+05-02-2019 13:22:21.124 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8bf9040d.run La contraseña 1234 es $2a$10$tzcJPi5SgGVJeZoK0YBUXuKUHI33ONyV7Xnpfn8H8Twpegg44Xtpy
+05-02-2019 13:22:24.376 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:22:30.018 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#<null>]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 13:22:30.022 a.e.i.p.c.TaskRestController.addTask Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 13:22:30.044 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:23:43.418 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:23:44.552 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$63c571a0.run Inicio de la Aplicacion
+05-02-2019 13:23:44.660 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$63c571a0.run La contraseña 1234 es $2a$10$K68wBACsnRLb8obmKM7m1.hIK23L/FDNDdOYiJaUnJ2/RRVoqEVtu
+05-02-2019 13:23:54.834 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#<null>]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 13:23:54.844 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 13:23:54.956 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:25:27.707 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:25:29.156 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ed8c304b.run Inicio de la Aplicacion
+05-02-2019 13:25:29.262 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ed8c304b.run La contraseña 1234 es $2a$10$Vb.rxHMg0eWOwq5GM3.INOzHK6bvIMJtfMBkjhOWTufxAXJoVAwOO
+05-02-2019 13:25:34.375 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:30:11.795 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:30:13.218 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$7ce4adfb.run Inicio de la Aplicacion
+05-02-2019 13:30:13.325 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$7ce4adfb.run La contraseña 1234 es $2a$10$6ctH5SSToWU5UFs/Rlfukev2nhKdVQtyCNqUSds96ppWDCQB3H3ki
+05-02-2019 13:30:41.261 o.h.a.i.UnresolvedEntityInsertActions.logCannotResolveNonNullableTransientDependencies HHH000437: Attempting to save one or more entities that have a non-nullable association with an unsaved transient entity. The unsaved transient entity must be saved in an operation prior to saving these dependent entities.
+	Unsaved transient entity: ([ar.edu.iua.proyectoFinal.model.TaskList#0])
+	Dependent entities: ([[ar.edu.iua.proyectoFinal.model.Task#<null>]])
+	Non-nullable association(s): ([ar.edu.iua.proyectoFinal.model.Task.taskList])
+05-02-2019 13:30:41.267 a.e.i.p.c.TaskRestController.addTask org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ar.edu.iua.proyectoFinal.model.Task.taskList -> ar.edu.iua.proyectoFinal.model.TaskList
+05-02-2019 13:30:41.323 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:30:44.388 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:32:37.142 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:32:38.542 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$937f93a6.run Inicio de la Aplicacion
+05-02-2019 13:32:38.647 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$937f93a6.run La contraseña 1234 es $2a$10$cl4KVqCsGU45AMLB2jDRsOgoGfzklCrl7w251SyUJSOu5ZKDapuD.
+05-02-2019 13:32:50.968 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:33:04.688 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:33:04.692 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:33:04.695 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:33:04.702 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:33:04.719 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:33:04.728 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:33:04.743 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:33:04.749 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 13:43:28.986 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 13:43:30.469 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$748e2cec.run Inicio de la Aplicacion
+05-02-2019 13:43:30.575 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$748e2cec.run La contraseña 1234 es $2a$10$ekV13mchV7Ncx4Ndf2CG2eNXngH7biZWkVcTqECjB.lnMLllwrPdq
+05-02-2019 13:43:35.630 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 14:15:26.241 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:15:26.274 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'taskRestController' method 
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.moveTask(int,ar.edu.iua.proyectoFinal.model.Task,javax.servlet.http.HttpServletRequest)
+to {[/api/v1/task/ || /api/v1/task],methods=[PUT]}: There is already 'taskRestController' bean method
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.updateSprintName(ar.edu.iua.proyectoFinal.model.Task,java.lang.String) mapped.
+05-02-2019 14:15:26.304 o.s.boot.SpringApplication.reportFailure Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'taskRestController' method 
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.moveTask(int,ar.edu.iua.proyectoFinal.model.Task,javax.servlet.http.HttpServletRequest)
+to {[/api/v1/task/ || /api/v1/task],methods=[PUT]}: There is already 'taskRestController' bean method
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.updateSprintName(ar.edu.iua.proyectoFinal.model.Task,java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1694)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at ar.edu.iua.proyectoFinal.ProyectoFinalApplication.main(ProyectoFinalApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'taskRestController' method 
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.moveTask(int,ar.edu.iua.proyectoFinal.model.Task,javax.servlet.http.HttpServletRequest)
+to {[/api/v1/task/ || /api/v1/task],methods=[PUT]}: There is already 'taskRestController' bean method
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.updateSprintName(ar.edu.iua.proyectoFinal.model.Task,java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:581)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:545)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:267)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:252)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:219)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:189)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1753)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1690)
+	... 21 common frames omitted
+05-02-2019 14:17:57.395 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:17:57.434 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'taskRestController' method 
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.moveTask(int,ar.edu.iua.proyectoFinal.model.Task,javax.servlet.http.HttpServletRequest)
+to {[/api/v1/task/ || /api/v1/task],methods=[PUT]}: There is already 'taskRestController' bean method
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.updateSprintName(ar.edu.iua.proyectoFinal.model.Task,java.lang.String) mapped.
+05-02-2019 14:17:57.465 o.s.boot.SpringApplication.reportFailure Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'taskRestController' method 
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.moveTask(int,ar.edu.iua.proyectoFinal.model.Task,javax.servlet.http.HttpServletRequest)
+to {[/api/v1/task/ || /api/v1/task],methods=[PUT]}: There is already 'taskRestController' bean method
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.updateSprintName(ar.edu.iua.proyectoFinal.model.Task,java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1694)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at ar.edu.iua.proyectoFinal.ProyectoFinalApplication.main(ProyectoFinalApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'taskRestController' method 
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.moveTask(int,ar.edu.iua.proyectoFinal.model.Task,javax.servlet.http.HttpServletRequest)
+to {[/api/v1/task/ || /api/v1/task],methods=[PUT]}: There is already 'taskRestController' bean method
+public org.springframework.http.ResponseEntity<ar.edu.iua.proyectoFinal.model.Task> ar.edu.iua.proyectoFinal.controller.TaskRestController.updateSprintName(ar.edu.iua.proyectoFinal.model.Task,java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:581)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:545)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:267)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:252)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:219)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:189)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1753)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1690)
+	... 21 common frames omitted
+05-02-2019 14:19:30.653 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:19:32.043 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$e454eaab.run Inicio de la Aplicacion
+05-02-2019 14:19:32.152 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$e454eaab.run La contraseña 1234 es $2a$10$Nvinl1CNAJayHHkZM4SWCeEocERE0swIXWrDiHC4afXsiKCDI8BAS
+05-02-2019 14:19:36.751 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:19:40.174 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:19:58.577 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:19:58.583 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:19:58.583 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:19:58.585 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:19:58.603 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:19:58.605 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:19:58.610 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:19:58.622 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:20:00.881 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:20:00.886 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:20:00.893 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:20:00.899 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 14:20:56.197 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:20:57.597 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$da115cbd.run Inicio de la Aplicacion
+05-02-2019 14:20:57.704 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$da115cbd.run La contraseña 1234 es $2a$10$T/TAsIHYxTvUy0i7tRGNwef6oUtJwkJ3pR7fQoG.MGCh/T40BAftK
+05-02-2019 14:21:03.185 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 14:21:03.205 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 14:23:38.563 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:23:39.932 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$4a6bd45c.run Inicio de la Aplicacion
+05-02-2019 14:23:40.039 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$4a6bd45c.run La contraseña 1234 es $2a$10$psN9xIjCintGSwUf3WLEyu/vhSQSY6920NevJmz1j.z1ipFC1vTfe
+05-02-2019 14:23:47.654 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1048, SQLState: 23000
+05-02-2019 14:23:47.656 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions Column 'task_list_id' cannot be null
+05-02-2019 14:23:47.664 a.e.i.p.c.TaskRestController.updateSprintName could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+05-02-2019 14:24:50.051 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:24:51.432 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a9bcf8dd.run Inicio de la Aplicacion
+05-02-2019 14:24:51.540 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a9bcf8dd.run La contraseña 1234 es $2a$10$EEP1Z3EgOl5t4c5F4/ws2.vIYCFaKH9Zo3bGuIbgc5N.F00xZkhnq
+05-02-2019 14:27:58.365 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:27:59.953 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$348f13e.run Inicio de la Aplicacion
+05-02-2019 14:28:00.062 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$348f13e.run La contraseña 1234 es $2a$10$gVWc92bCAnmRJ9cmlwWLMeqcMybWAxxlCZwnytxHylUDVdu4Bd1sG
+05-02-2019 14:30:54.715 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:30:56.238 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$30ee785f.run Inicio de la Aplicacion
+05-02-2019 14:30:56.353 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$30ee785f.run La contraseña 1234 es $2a$10$MBUvWEERkgHrqwqhFhZg9eNC535K3m3ZI296Kyq/BPyqZiacLFK4.
+05-02-2019 14:42:01.883 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:42:03.365 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$216cfb1e.run Inicio de la Aplicacion
+05-02-2019 14:42:03.472 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$216cfb1e.run La contraseña 1234 es $2a$10$TtSSgXiyiBeKcUH9WEvCNeqh.6Q/7NNF5MsPAOuEdWPGURmJvI.bm
+05-02-2019 14:42:53.371 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:42:54.784 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8bf0d6d7.run Inicio de la Aplicacion
+05-02-2019 14:42:54.891 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8bf0d6d7.run La contraseña 1234 es $2a$10$SFuLJul/ggX018kN4SR2vut9AElb2DoXtzpjXlTFWBHljzsPNakBG
+05-02-2019 14:43:19.844 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:43:21.242 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6ffd6722.run Inicio de la Aplicacion
+05-02-2019 14:43:21.347 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6ffd6722.run La contraseña 1234 es $2a$10$Op0Du2ZAYsSPL4lLH1SXm.8Fk12AWp6zEUoAUsDAuF9.KQdt7.lwO
+05-02-2019 14:44:08.809 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:44:10.218 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$af4e1b94.run Inicio de la Aplicacion
+05-02-2019 14:44:10.323 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$af4e1b94.run La contraseña 1234 es $2a$10$wlh9jlLVH3SjHQ3FvdpQIemsCoZMWUNXDsgjf/TgQvr28UpBQ/a6O
+05-02-2019 14:48:31.511 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:48:32.829 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ac1f9ef8.run Inicio de la Aplicacion
+05-02-2019 14:48:32.934 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ac1f9ef8.run La contraseña 1234 es $2a$10$0f7OadLHyT.bwjBP5.QpeugckoW4pnrDjQM5f30/A1XB6fZDy.YJq
+05-02-2019 14:50:38.316 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:50:39.663 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6ead22f0.run Inicio de la Aplicacion
+05-02-2019 14:50:39.770 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6ead22f0.run La contraseña 1234 es $2a$10$Y58JJu/MPCgZkbTnMyAth.1qHpvNqr4X99bmGiNm4n7kUStuTqUxa
+05-02-2019 14:53:42.618 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:53:44.028 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$80c6d1d5.run Inicio de la Aplicacion
+05-02-2019 14:53:44.134 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$80c6d1d5.run La contraseña 1234 es $2a$10$ozGwjUgY61n.zVH.YAVli.534WN2oO9AGpvHKmicA.1Zqbj/hC/7a
+05-02-2019 14:53:52.146 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1048, SQLState: 23000
+05-02-2019 14:53:52.149 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions Column 'task_list_id' cannot be null
+05-02-2019 14:53:52.160 a.e.i.p.c.TaskRestController.updateSprintName could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+05-02-2019 14:57:14.425 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:57:15.954 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$364d0c99.run Inicio de la Aplicacion
+05-02-2019 14:57:16.062 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$364d0c99.run La contraseña 1234 es $2a$10$wImoomfvJfPS9Qq49Z4LUuDHvpn5HdEXeqWuNZBf9WXPSQTzUkv2e
+05-02-2019 14:57:32.443 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:57:33.600 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$86f1d4d3.run Inicio de la Aplicacion
+05-02-2019 14:57:33.707 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$86f1d4d3.run La contraseña 1234 es $2a$10$RYQssgJYSnq7qNRKerJ7F.yv8wlqT/fzWP1lVxPUs50iN4f8obepy
+05-02-2019 14:57:40.637 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1048, SQLState: 23000
+05-02-2019 14:57:40.639 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions Column 'task_list_id' cannot be null
+05-02-2019 14:57:40.645 a.e.i.p.c.TaskRestController.updateSprintName could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+05-02-2019 14:59:32.443 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 14:59:33.974 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3761d018.run Inicio de la Aplicacion
+05-02-2019 14:59:34.084 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3761d018.run La contraseña 1234 es $2a$10$KEio7d8uyqgAPJSbwC.Rb.UmbS1AdKc4g/w724rfJ5v0lWfLF6Gga
+05-02-2019 14:59:40.107 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1048, SQLState: 23000
+05-02-2019 14:59:40.109 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions Column 'task_list_id' cannot be null
+05-02-2019 14:59:40.119 a.e.i.p.c.TaskRestController.updateSprintName could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+05-02-2019 15:00:39.015 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 15:00:40.369 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$4cc2773e.run Inicio de la Aplicacion
+05-02-2019 15:00:40.478 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$4cc2773e.run La contraseña 1234 es $2a$10$x2PkPXZ0yVMOtZ7RDnwhReHeUyvNPmoM7.XyHoC5vaAKmevxtUipy
+05-02-2019 15:01:06.114 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:06.123 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:06.140 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:06.157 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:06.171 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:06.172 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:18.274 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+05-02-2019 15:01:18.307 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:18.310 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:18.315 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:32.678 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:32.678 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:32.683 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:34.459 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:34.463 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:34.468 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:38.388 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+05-02-2019 15:01:38.423 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:38.434 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:01:38.434 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:02:10.816 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:02:10.819 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:02:10.822 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:02:10.839 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:02:10.843 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:02:10.847 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:05:58.312 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 15:05:59.733 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$58e62016.run Inicio de la Aplicacion
+05-02-2019 15:05:59.839 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$58e62016.run La contraseña 1234 es $2a$10$sKyAY/vXLcTyg.lEns8fQOr/dWCJarVVcUG78tzEf4uSY3HwdDgjW
+05-02-2019 15:06:06.761 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 15:06:06.767 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+05-02-2019 15:08:09.266 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-02-2019 15:08:10.654 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$59a84e0d.run Inicio de la Aplicacion
+05-02-2019 15:08:10.759 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$59a84e0d.run La contraseña 1234 es $2a$10$z1chMT64HIBQ1ueJEZmT3.DiOmJKf1P5ELMuAaGgPa7/KU1hz7Jeu
+05-02-2019 15:08:27.845 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:08:27.854 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:08:27.857 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:08:27.870 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:08:27.873 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:08:27.875 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:08:29.563 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+05-02-2019 15:08:29.593 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:08:29.594 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:08:29.602 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:32.056 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:32.057 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:32.057 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:32.088 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:32.092 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:32.096 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:34.540 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:34.546 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:34.552 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:37.457 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+05-02-2019 15:09:37.485 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:37.494 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:37.495 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:39.817 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+05-02-2019 15:09:39.842 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:39.850 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:39.857 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:43.584 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+05-02-2019 15:09:43.617 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:43.623 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:09:43.633 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:13.853 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:13.859 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:13.859 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:13.906 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:13.908 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:13.911 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:15.884 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+05-02-2019 15:10:15.911 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:15.920 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:15.927 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:17.680 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:17.687 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:17.693 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:23.034 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:23.036 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:23.047 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+05-02-2019 15:10:23.047 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito

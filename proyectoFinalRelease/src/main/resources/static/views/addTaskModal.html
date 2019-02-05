@@ -6,20 +6,20 @@
     <form>
         <div class="form-group">
             <label for="name">Name:</label>
-            <input id="name" class="form-control" type="text" ng-model="$taskModalCtrl.instancia.name"/>
+            <input id="name" required="required" class="form-control" type="text" ng-model="$taskModalCtrl.instancia.name"/>
 
 
 
             <label for="priority">Priority</label>
             <select class="form-control" id="priority" ng-model="$taskModalCtrl.instancia.priority">
                 <option>Low</option>
-                <option>Medium</option>
+                <option selected="selected" >Medium</option>
                 <option>High</option>
             </select>
 
 
             <label for="estimatedTime">Estimated time:</label>
-            <input id="estimatedTime" class="form-control" type="number" ng-model="$taskModalCtrl.instancia.estimatedTime"/><br/>
+            <input id="estimatedTime" required="required" class="form-control" type="number" ng-model="$taskModalCtrl.instancia.estimatedTime"/><br/>
 
 
             <input id="taskListName" class="form-control" type="hidden" ng-model="$taskModalCtrl.instancia.taskList.name" value="{{taskListToAddName}}"/><br/>

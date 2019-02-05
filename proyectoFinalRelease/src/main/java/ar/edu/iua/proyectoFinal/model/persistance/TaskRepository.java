@@ -13,6 +13,8 @@ public interface TaskRepository extends JpaRepository<Task,Integer> {
     List<Task> getAllByCreationDate(String creationDate);
 
 
+
+
     @Query(value = "select * from task where task_list_id in ?1", nativeQuery = true)
     List<Task> getByTaskListId(List<Integer> taskListIds);
 
