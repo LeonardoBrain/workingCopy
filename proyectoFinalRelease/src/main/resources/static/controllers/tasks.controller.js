@@ -9,6 +9,8 @@ angular.module('iw3')
     $scope.actualSprint = $rootScope.sprints[0] || 'Sprint1';
     $scope.actualOrder = ' ';
     $scope.taskLists = {};
+    $scope.backLogIdCurrentSprint=0;
+    $scope.sprintToAdd ='';
 
 //INICIALIZAR LAS LISTAS
     $scope.models = {
@@ -19,7 +21,8 @@ angular.module('iw3')
 
     // CARGAR LAS LISTAS
     $scope.getAllTaskLists = function () {
-
+        document.getElementById("addTaskButton").disabled = true;
+        document.getElementById("addListButton").disabled = false;
         //INICIALIZA EL OBJETO LISTS PARA METERLE LAS LISTAS ADENTRO
         $scope.models = {
             selected: null,
@@ -30,7 +33,9 @@ angular.module('iw3')
         taskListService.getAllTaskListsBySprint($scope.actualSprint).then(
             function (resp) {
                 $scope.taskLists = resp.data;
-
+                if( $scope.taskLists.length>=5){
+                    document.getElementById("addListButton").disabled = true;
+                }
                 for(var i=0 ; i<$scope.taskLists.length ; i++){
 
                     switch ($scope.taskLists[i].name) {
@@ -81,9 +86,15 @@ angular.module('iw3')
                             break;
                         case 'Backlog':
                             $scope.models.lists.Backlog = [];
+                            document.getElementById("addTaskButton").disabled = false;
                             tasksService.getTasksByListAndSprintName('Backlog', $scope.actualSprint, $scope.actualOrder).then(
                                 function (resp) {
                                     $scope.models.lists.Backlog=resp.data;
+                                    taskListService.getTaskListIdByNameAndSprintName('Backlog',$scope.actualSprint).then(
+                                        function (value) {
+                                            $scope.backLogIdCurrentSprint=value.data;
+                                        }
+                                    );
                                 },
                                 function (reason) {
 
@@ -119,6 +130,7 @@ angular.module('iw3')
     $scope.newTaskModal = function(tasklistName, taskListId){
         $scope.taskListToAdd.id = taskListId;
         $scope.taskListToAdd.name = tasklistName;
+        $scope.sprintToAdd = $scope.actualSprint;
         var mi=$uibModal.open({
             animation : true,
             backdrop : 'static',
@@ -138,6 +150,7 @@ angular.module('iw3')
                 $scope.instancia.taskList={};
                 $scope.instancia.taskList.name =  $scope.taskListToAdd.name;
                 $scope.instancia.taskList.taskListId =  $scope.taskListToAdd.id;
+                $scope.instancia.taskList.sprintName = $scope.actualSprint;
                 $scope.addTask();
             },function(e){
 
@@ -148,9 +161,9 @@ angular.module('iw3')
     $scope.addTask=function(){
         tasksService.addTask($scope.instancia).then(
             function(resp){
-               // $scope.dataSource.push(resp.data);
+                //scope.dataSource.push(resp.data);
                 $scope.instancia={};
-                $scope.loadBacklog();
+                $scope.getAllTaskLists();
             },
             function(err){}
         );

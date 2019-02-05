@@ -64,6 +64,23 @@ public class TaskListRestController {
         return new ResponseEntity<TaskList>(taskList, HttpStatus.OK);
 
     }
+    @GetMapping("/taskListId")
+    public ResponseEntity<Integer> getTaskListIdByNameAndSprintName(@RequestParam(required = false, value = "task_list_name", defaultValue = "*") String taskListName,
+                                                                    @RequestParam(required = false, value = "sprint_name", defaultValue = "*") String sprintName){
+        Integer id;
+
+        try {
+            id= taskListBusiness.getTaskListIdByNameAndSprintName(taskListName, sprintName);
+
+        }catch (NotFoundException e){
+            log.error(e.getMessage());
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+
+
+        return new ResponseEntity<>(id, HttpStatus.OK);
+
+    }
 
     @GetMapping("/one")
     public ResponseEntity<TaskList> getTaskListByTaskListNameAndSprintName(@RequestParam(required = false, value = "task_list_name", defaultValue = "*") String taskListName,

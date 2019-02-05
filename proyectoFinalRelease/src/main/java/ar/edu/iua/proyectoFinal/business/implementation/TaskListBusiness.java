@@ -85,4 +85,9 @@ public class TaskListBusiness implements TaskListBusinessI {
 
         return taskListRepository.findByNameAndSprintName(taskListName, sprintName);
     }
+
+    public int getTaskListIdByNameAndSprintName(String taskListName, String sprintName) throws NotFoundException{
+
+        return taskListRepository.getTaskListIdByNameAndSprintName(taskListName, sprintName);
+    }
 }

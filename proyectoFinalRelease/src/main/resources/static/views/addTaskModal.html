@@ -21,6 +21,8 @@
             <label for="estimatedTime">Estimated time:</label>
             <input id="estimatedTime" required="required" class="form-control" type="number" ng-model="$taskModalCtrl.instancia.estimatedTime"/><br/>
 
+            <input id="sprint" class="form-control" readonly type="hidden" ng-model="$taskModalCtrl.instancia.taskList.sprintName" value="{{actualSprint}}"/><br/>
+
 
             <input id="taskListName" class="form-control" type="hidden" ng-model="$taskModalCtrl.instancia.taskList.name" value="{{taskListToAddName}}"/><br/>
             <input id="taskListId" class="form-control" type="hidden" ng-model="$taskModalCtrl.instancia.taskList.taskListId" value="{{taskListToAddId}}"/><br/>
