@@ -24,6 +24,6 @@ public interface TaskBusinessI {
     List<Task> getAllTasksByListNameByDate(String list_name)throws BusinessException, NotFoundException;
     List<Task> getAllTasksByListNameByPriority(String list_name) throws BusinessException, NotFoundException;
     List<Task> getAllTasksByListName(String list_name) throws BusinessException, NotFoundException;
-    List<Task> getAllTasksByListAndSprintName(String sprintName, String listName) throws NotFoundException;
+    List<Task> getAllTasksByListAndSprintName(String sprintName, String listName, String orderBy) throws NotFoundException;
 
 }

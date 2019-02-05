@@ -131,11 +131,12 @@ public class TaskRestController {
 
     @GetMapping(value = {"/all"})
     public ResponseEntity getAllTasksByTaskList(@RequestParam(required = false, value = "list_name", defaultValue = "*") String listName,
-                                                @RequestParam(required = false, value = "sprint_name", defaultValue = "*") String sprintName){
+                                                @RequestParam(required = false, value = "sprint_name", defaultValue = "*") String sprintName,
+                                                @RequestParam(required = false, value = "order_by", defaultValue = "*") String orderBy){
 
         List<Task> tasks;
         try{
-            tasks = taskBusiness.getAllTasksByListAndSprintName(sprintName, listName);
+            tasks = taskBusiness.getAllTasksByListAndSprintName(sprintName, listName, orderBy);
 
 
 

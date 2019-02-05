@@ -6,7 +6,8 @@ angular.module('iw3')
     $scope.dataSource = [];
     $scope.instancia = {};
     $scope.taskListToAdd={};
-    $scope.actualSprint = $rootScope.sprints[0];
+    $scope.actualSprint = $rootScope.sprints[0] || 'Sprint1';
+    $scope.actualOrder = ' ';
     $scope.taskLists = {};
 
 //INICIALIZAR LAS LISTAS
@@ -36,7 +37,7 @@ angular.module('iw3')
 
                         case 'TODO':
                             $scope.models.lists.TODO = [];
-                            tasksService.getTasksByListAndSprintName('TODO', $scope.actualSprint).then(
+                            tasksService.getTasksByListAndSprintName('TODO', $scope.actualSprint, $scope.actualOrder).then(
                                 function (resp) {
                                     $scope.models.lists.TODO=resp.data;
                                 },
@@ -46,7 +47,7 @@ angular.module('iw3')
                             break;
                         case 'In Progress':
                             $scope.models.lists.InProgress = [];
-                            tasksService.getTasksByListAndSprintName('In Progress', $scope.actualSprint).then(
+                            tasksService.getTasksByListAndSprintName('In Progress', $scope.actualSprint, $scope.actualOrder).then(
                                 function (resp) {
                                     $scope.models.lists.InProgress=resp.data;
                                 },
@@ -58,7 +59,7 @@ angular.module('iw3')
                             break;
                         case 'Done':
                             $scope.models.lists.Done = [];
-                            tasksService.getTasksByListAndSprintName('Done', $scope.actualSprint).then(
+                            tasksService.getTasksByListAndSprintName('Done', $scope.actualSprint, $scope.actualOrder).then(
                                 function (resp) {
                                     $scope.models.lists.Done=resp.data;
                                 },
@@ -69,7 +70,7 @@ angular.module('iw3')
                             break;
                         case 'Waiting':
                             $scope.models.lists.Waiting = [];
-                            tasksService.getTasksByListAndSprintName('Waiting', $scope.actualSprint).then(
+                            tasksService.getTasksByListAndSprintName('Waiting', $scope.actualSprint, $scope.actualOrder).then(
                                 function (resp) {
                                     $scope.models.lists.Waiting=resp.data;
                                 },
@@ -80,7 +81,7 @@ angular.module('iw3')
                             break;
                         case 'Backlog':
                             $scope.models.lists.Backlog = [];
-                            tasksService.getTasksByListAndSprintName('Backlog', $scope.actualSprint).then(
+                            tasksService.getTasksByListAndSprintName('Backlog', $scope.actualSprint, $scope.actualOrder).then(
                                 function (resp) {
                                     $scope.models.lists.Backlog=resp.data;
                                 },
@@ -186,7 +187,7 @@ angular.module('iw3')
             return;
         tasksService.deleteTask(taskId).then(function (resp) {
             if (resp.status===200){
-                $scope.loadBacklog();
+                $scope.getAllTaskLists();
             } else if (resp.status===403){
 
                 alert("No tiene permitido realizar esa accion");
@@ -206,6 +207,10 @@ angular.module('iw3')
     }, true);
 
     $('#sprintSelect').on("click", function() {
+        $scope.getAllTaskLists();
+    } );
+
+    $('#orderSelect').on("click", function() {
         $scope.getAllTaskLists();
     } );
 

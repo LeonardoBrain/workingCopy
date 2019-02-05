@@ -9,23 +9,34 @@
 <!-- The dnd-list directive allows to drop elements into it.
      The dropped data will be added to the referenced list probando github -->
 <div class="page-header">
-    <h1>Sprint<small>{{actualSprint}}</small></h1>
+    <h1>Current Sprint <small>{{actualSprint}}</small></h1>
 </div>
 
 <div>
 
-    <select class="btn btn-primary dropdown-toggle" id="sprintSelect" ng-model="actualSprint" data-ng-init='getAllTaskLists()'>
+    Sprint: <select class="btn btn-primary dropdown-toggle" id="sprintSelect" ng-model="actualSprint" data-ng-init='getAllTaskLists()'>
 
         <option ng-repeat="sprint in sprints"  value="{{sprint}}">{{sprint}}</option>
 
     </select>
+<div style="float: right">
+    Order By:
+    <select class="btn btn-primary dropdown-toggle" id="orderSelect" ng-model="actualOrder" data-ng-init='getAllTaskLists()'>
+
+        <option value=" ">No Order</option>
+        <option value="priority">Priority</option>
+        <option value="creationDate">Creation Date</option>
+
+    </select>
+</div>
+
   <br>
     <br>
 <div class="simpleDemo row">
 
-    <div class="col-md-8">
+    <div class="col-md-13">
         <div class="row">
-            <div ng-repeat="(listName, list) in models.lists" class="col-md-3">
+            <div ng-repeat="(listName, list) in models.lists" class="col-md-2">
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <h3 class="panel-title">{{listName}}</h3>

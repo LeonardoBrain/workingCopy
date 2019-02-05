@@ -3,7 +3,7 @@ angular.module('iw3')
 
     return{
         loadBacklog : function () {
-            return $http.get(URL_API_BASE+"task?list_name=backlog");
+            return $http.get(URL_API_BASE+"task/all?list_name=Backlog&sprint_name=Backlog&order_by=*");
 
         },
         addTask : function(task){
@@ -14,8 +14,8 @@ angular.module('iw3')
             return $http.get(URL_API_BASE + "task?list_id=" + id + "");
 
         },
-        getTasksByListAndSprintName : function (listName, sprintName) {
-            return $http.get(URL_API_BASE+"task/all?list_name="+listName+"&sprint_name="+sprintName+"");
+        getTasksByListAndSprintName : function (listName, sprintName, orderBy) {
+            return $http.get(URL_API_BASE+"task/all?list_name="+listName+"&sprint_name="+sprintName+"&order_by="+orderBy+"");
 
         },
         moveTask : function(id, task){

@@ -12,6 +12,18 @@
         dnd-selected="models.selected = item"
         ng-class="{'selected': models.selected === item}"
     >
-        {{item.name}}
+        <span style="float:right; padding-left: 10px" class="glyphicon glyphicon-pencil"></span>
+        <span style="float:right; padding-left: 5px" class="glyphicon glyphicon-trash" ng-click="deleteTask(item.taskId)"></span>
+        <br>
+        <span class="label label-info">Task Name: {{item.name}}</span>
+        <br>
+        <span class="label label-info">Creation Date: {{item.creationDate}}</span>
+        <br>
+        <span class="label label-info">Modification Date: {{item.modificationDate}}</span>
+        <br>
+        <span class="label label-info">Priority: {{item.priority}}</span>
+        <br>
+        <span class="label label-info">Estimated Time: {{item.estimatedTime}}</span>
+
     </li>
 </ul>

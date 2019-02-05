@@ -131,9 +131,26 @@ public class TaskBusiness implements TaskBusinessI {
 
 
     }
-    public List<Task> getAllTasksByListAndSprintName(String sprintName, String listName) throws NotFoundException{
+    public List<Task> getAllTasksByListAndSprintName(String sprintName, String listName, String orderBy) throws NotFoundException{
 
-        List<Task> tasks = taskRepository.getByTaskListAndSprintName(sprintName, listName);
+        List<Task> tasks;
+
+        switch(orderBy){
+
+            case "priority":
+                tasks = taskRepository.getByTaskListAndSprintNameOrderByPriority(sprintName, listName);
+                break;
+
+            case "creationDate":
+                tasks = taskRepository.getByTaskListAndSprintNameOrderByCreationDate(sprintName, listName);
+                break;
+
+                default:
+                    tasks = taskRepository.getByTaskListAndSprintName(sprintName, listName);
+                    break;
+        }
+
+
 
         if(!tasks.isEmpty()){
 
@@ -144,6 +161,8 @@ public class TaskBusiness implements TaskBusinessI {
         }
 
     }
+
+
 
     public List<Task> getAllTasksByTaskList(List<Integer> taskListIds) throws NotFoundException{
 
