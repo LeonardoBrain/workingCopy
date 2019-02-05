@@ -182,10 +182,13 @@ angular.module('iw3')
     };
 
     $scope.deleteTask = function(taskId){
+        if(!confirm("Desea eliminar la tarea seleccionada?"))
+            return;
         tasksService.deleteTask(taskId).then(function (resp) {
             if (resp.status===200){
                 $scope.loadBacklog();
             } else if (resp.status===403){
+
                 alert("No tiene permitido realizar esa accion");
             }
 

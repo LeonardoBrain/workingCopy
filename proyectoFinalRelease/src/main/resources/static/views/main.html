@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Pagina principal</title>
-    <h1>{{titulo}}</h1>
+
 
 
 
 
 </head>
 <body>
+<div class="jumbotron" style="padding-left: 20px ">
+    <h1 style="text-align: center" class="display-4">Bienvenido</h1>
 
+    <hr class="my-4">
+
+    <div style="text-align: center">
+    <a  class="btn btn-primary btn-lg" ng-click="relocate('backlog')" role="button" >Ir al Backlog</a>
+    <a  class="btn btn-info btn-lg" ng-click="relocate('activeSprint')" role="button" >Ir al ActiveSprint</a>
+    </div>
+
+</div>
 </body>
 </html>

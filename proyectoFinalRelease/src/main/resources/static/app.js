@@ -65,18 +65,7 @@ app.run(['$rootScope','$log','$location','taskListService','$uibModal', 'coreSer
         };
 
 
-        // $rootScope.alertaModal =function() {
-        //
-        //     var mi=$uibModal.open({
-        //         animation : true,
-        //         backdrop : 'static',
-        //         keyboard : true,
-        //         templateUrl : 'views/alertaModal.html',
-        //         controller : 'AlertaModalController',
-        //         controllerAs: '$ctrl',
-        //         size : 'small'
-        //     });
-        // };
+
 
         //Callback luego de autenticación
         $rootScope.cbauth=false;
