@@ -20,10 +20,12 @@
 
     </select>
 
-    <button type="button" id="addListButton" class="btn btn-success">Add List to this Sprint</button>
+    <button type="button" id="addListButton" class="btn btn-success" ng-click="newTaskListModal()">Add List to this Sprint</button>
     <button type="button" id="addTaskButton" disabled="true" class="btn btn-success" ng-click="newTaskModal('Backlog',backLogIdCurrentSprint)">Add Task </button>
+    <button type="button" id="addSprint" class="btn btn-success" ng-click="newSprint()">Add New Sprint</button>
 
-<div style="float: right">
+
+    <div style="float: right">
     Order By:
     <select class="btn btn-primary dropdown-toggle" id="orderSelect" ng-model="actualOrder" data-ng-init='getAllTaskLists()'>
 

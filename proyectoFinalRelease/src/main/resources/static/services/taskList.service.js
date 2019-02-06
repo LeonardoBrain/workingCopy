@@ -15,6 +15,9 @@ angular.module('iw3')
             },
             getTaskListIdByNameAndSprintName: function(taskListName, sprintName){
                 return $http.get(URL_API_BASE+"taskList/taskListId?task_list_name="+taskListName+"&sprint_name="+sprintName+"");
+            },
+            addTaskList: function(taskList){
+                return $http.post(URL_API_BASE+"taskList/", taskList);
             }
         }
 

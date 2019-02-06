@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <h3 class="modal-title">New Sprint</h3>
+</div>
+<div class="modal-body">
+
+    <form>
+        <div class="form-group">
+
+
+
+            <label for="name">Sprint:</label>
+            <select class="form-control" id="name" ng-model="$taskToSprintModalCtrl.sprint">
+                <option ng-repeat="sp in $taskToSprintModalCtrl.sprintsActuales" >{{sp}}</option>
+
+            </select>
+
+        </div>
+    </form>
+
+
+</div>
+<div class="modal-footer">
+
+    <button class="btn btn-primary" type="submit"
+            ng-click="$taskToSprintModalCtrl.cancel()">Cancelar</button>
+    <button class="btn btn-success"
+            type="submit" ng-click="$taskToSprintModalCtrl.ok()">Aceptar</button>
+
+</div>

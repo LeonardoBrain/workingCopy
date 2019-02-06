@@ -4,13 +4,20 @@ angular.module('iw3')
     $scope.title = "Backlog";
 
     $scope.dataSource = [];
+    $scope.dataList = ['TODO', 'Done', 'In Progress', 'Waiting', 'Backlog'];
     $scope.instancia = {};
     $scope.taskListToAdd={};
-    $scope.actualSprint = $rootScope.sprints[0] || 'Sprint1';
+    $scope.actualSprint = $rootScope.sprints[0] ;
     $scope.actualOrder = ' ';
     $scope.taskLists = {};
+    $scope.taskListsToCreate = [];
     $scope.backLogIdCurrentSprint=0;
     $scope.sprintToAdd ='';
+    $scope.sprint ='';
+    $scope.taskListId ='';
+    $scope.sprintsActuales =[];
+    $scope.listaToAdd ={};
+
 
 //INICIALIZAR LAS LISTAS
     $scope.models = {
@@ -36,6 +43,7 @@ angular.module('iw3')
                 if( $scope.taskLists.length>=5){
                     document.getElementById("addListButton").disabled = true;
                 }
+
                 for(var i=0 ; i<$scope.taskLists.length ; i++){
 
                     switch ($scope.taskLists[i].name) {
@@ -107,7 +115,7 @@ angular.module('iw3')
 
                     }
                 }
-
+                $scope.loadBacklog();
 
             },
             function (reason) {  }
@@ -156,7 +164,6 @@ angular.module('iw3')
 
             });
     };
-
     //AGREGAR TAREA
     $scope.addTask=function(){
         tasksService.addTask($scope.instancia).then(
@@ -166,6 +173,160 @@ angular.module('iw3')
                 $scope.getAllTaskLists();
             },
             function(err){}
+        );
+    };
+
+    //MODAL PARA SPRINT NUEVA
+    $scope.newSprint = function(){
+
+        var mi=$uibModal.open({
+            animation : true,
+            backdrop : 'static',
+            keyboard : false,
+            templateUrl : 'views/addSprint.html',
+            controller : 'AddSprintController',
+            controllerAs: '$sprintModalCtrl',
+            size : 'large',
+            resolve : {
+               // instancia : $scope.instancia
+            }
+        });
+
+        mi.result.then(
+            function(r){
+                console.log(r);
+                $scope.sprint=r;
+                $scope.listaToAdd.name ='Backlog';
+                $scope.listaToAdd.sprintName=$scope.sprint;
+
+                $scope.addTaskList();
+            },function(e){
+
+            });
+    };
+    //MODAL PARA AGREGAR TASK a Un SPRINT
+    $scope.includeTaskInSprint = function(taskId){
+
+        var mi=$uibModal.open({
+            animation : true,
+            backdrop : 'static',
+            keyboard : false,
+            templateUrl : 'views/addTaskToSprint.html',
+            controller : 'AddTaskToSprintController',
+            controllerAs: '$taskToSprintModalCtrl',
+            size : 'large',
+            resolve : {
+                instancia: function() {
+                    return $rootScope.sprints;
+                }
+            }
+        });
+
+        mi.result.then(
+            function(r){
+                console.log(r);
+                $scope.sprint=r;
+
+                $scope.getTaskById(taskId);
+            },function(e){
+
+            });
+    };
+
+    $scope.getTaskById= function(taskId){
+        tasksService.getTaskByID(taskId).then(
+            function (resp) {
+                console.log(resp.data.name);
+                $scope.instancia=resp.data;
+                $scope.getTaskListById();
+                
+        });
+    }
+    
+    $scope.getTaskListById = function(){
+        taskListService.getTaskListIdByNameAndSprintName('Backlog',$scope.sprint).then(
+            function (resp) {
+                console.log(resp.data);
+                $scope.instancia.taskList.taskListId = resp.data;
+                $scope.addTask();
+                $scope.loadBacklog();
+            });
+
+
+    }
+    
+    // $scope.moveTaskToBacklog = function(){
+    //     tasksService.moveTask($scope.taskListId,$scope.instancia).then(
+    //         function (resp) {
+    //             $scope.loadBacklog();
+    //         },function (err) {
+    //             console.log("Hubo un error");
+    //         });
+    //
+    // }
+    //MODAL PARA LISTA
+    $scope.newTaskListModal = function(){
+        $scope.sprintToAdd = $scope.actualSprint;
+
+        let k = 0;
+        for(var j=0 ; j<$scope.dataList.length ; j++){
+            let presente = false;
+
+            for(var i=0 ; i<$scope.taskLists.length ; i++){
+                if($scope.dataList[j]===($scope.taskLists[i].name)){
+                    presente=true;
+                    break;
+                }
+            }
+            if(presente==false){
+                $scope.taskListsToCreate[k] = angular.copy($scope.dataList[j]);
+                k++;
+            }
+        }
+
+
+        for(var i=0 ; i<$scope.taskListsToCreate.length ; i++){
+
+            console.log("Lista: "+$scope.taskListsToCreate[i]);
+        }
+
+            var mi2=$uibModal.open({
+            animation : true,
+            backdrop : 'static',
+            keyboard : false,
+            templateUrl : 'views/addTaskListModal.html',
+            controller : 'AddTaskListModalController',
+            controllerAs: '$taskListModalCtrl',
+            size : 'large',
+            resolve : {
+                instancia: function() {
+                    return $scope.taskListsToCreate
+
+                }
+            }
+        });
+
+        mi2.result.then(
+            function(r){
+
+                $scope.listaToAdd=r;
+                $scope.listaToAdd.sprintName=$scope.sprintToAdd;
+                $scope.addTaskList();
+            },function(e){
+
+            });
+    };
+    //AGREGAR LISTA
+    $scope.addTaskList=function(){
+        taskListService.addTaskList($scope.listaToAdd).then(
+            function(resp){
+                $scope.listaToAdd={};
+                $rootScope.getAllSprints();
+                $scope.getAllTaskLists();
+            },
+            function(err){
+                console.log(err);
+            }
         );
     };
 

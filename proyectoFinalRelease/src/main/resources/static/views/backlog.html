@@ -11,10 +11,13 @@
     <h1>Backlog</h1>
 </div>
 
+
 <button class="btn btn-primary " ng-click="newTaskModal('Backlog',100)">Add Task to Backlog</button>
+<input type="hidden"  id="addListButton" />
+<input type="hidden"  id="addTaskButton" />
 <br>
 <br>
-<div style="max-height: 60vh" class="list-group pre-scrollable"  data-ng-init="loadBacklog()">
+<div style="max-height: 60vh" class="list-group pre-scrollable"  data-ng-init="loadBacklog()" >
     <a class="list-group-item active" ng-repeat="tasks in dataSource">
         <h4 class="list-group-item-heading">{{tasks.name}}</h4>
         <p class="list-group-item-text">Priority: {{tasks.priority}}</p>

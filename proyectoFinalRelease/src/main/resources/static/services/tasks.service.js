@@ -26,6 +26,10 @@ angular.module('iw3')
         deleteTask: function (id) {
             return $http.delete(URL_API_BASE+"task/"+id+"");
 
+        },
+        getTaskByID: function (id) {
+            return $http.get(URL_API_BASE+"task/"+id+"");
+
         }
 
     }
