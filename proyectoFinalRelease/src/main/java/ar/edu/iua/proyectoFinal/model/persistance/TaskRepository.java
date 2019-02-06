@@ -13,6 +13,9 @@ public interface TaskRepository extends JpaRepository<Task,Integer> {
     List<Task> getAllByCreationDate(String creationDate);
 
 
+//    @Query(value = "UPDATE `ProyectoFinal`.`task` SET `estimated_time`=?1, `name`=?2, `priority`=?3 WHERE `task_id`=?4", nativeQuery = true)
+//    List<Task> updateTask(double est, String name, String prioridad, int id);
+
 
 
     @Query(value = "select * from task where task_list_id in ?1", nativeQuery = true)

@@ -648,3 +648,453 @@ org.springframework.aop.AopInvocationException: Null return value from advice do
 06-02-2019 16:20:51.750 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
 06-02-2019 16:20:54.910 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
 06-02-2019 16:20:56.948 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:13.458 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 16:26:14.944 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8fe8e7b8.run Inicio de la Aplicacion
+06-02-2019 16:26:15.049 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$8fe8e7b8.run La contraseña 1234 es $2a$10$EbXB.EKWiUV/8Cm6OwsNueTuIA2rBI0U8y9c9oxCrZojVuVm0nh4y
+06-02-2019 16:26:29.285 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 16:26:29.324 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:30.582 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 16:26:30.590 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 16:26:30.638 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:30.661 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:32.146 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:37.596 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:37.603 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:39.270 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:49.242 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:50.147 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:50.194 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:56.575 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:26:58.296 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:03.288 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:07.577 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:12.107 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:13.544 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:13.554 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:19.170 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:19.177 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:28.846 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:28.860 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:28.888 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:28.898 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:31.024 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:31.038 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:33.656 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:33.664 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:35.713 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:35.720 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:45.668 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:45.663 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:48.833 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 16:27:48.873 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:48.880 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:53.793 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:27:53.795 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:28:00.280 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:28:00.281 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:29:23.785 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 16:29:23.788 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:04:02.702 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:04:04.294 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$5495a9dd.run Inicio de la Aplicacion
+06-02-2019 19:04:04.415 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$5495a9dd.run La contraseña 1234 es $2a$10$GQQf3iOXsCB2ZEoKPfwDg.2.TyOMRmbQvT0fn5g/n6mJWpGhqZvKq
+06-02-2019 19:05:38.292 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:05:39.454 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ed789a4c.run Inicio de la Aplicacion
+06-02-2019 19:05:39.559 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ed789a4c.run La contraseña 1234 es $2a$10$0MDnhZuPSzjBO0KvQXwA2epPNC5y90S3VHfCXR4PkslzrG5f/qP/m
+06-02-2019 19:06:30.227 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:06:31.526 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$edf72aea.run Inicio de la Aplicacion
+06-02-2019 19:06:31.632 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$edf72aea.run La contraseña 1234 es $2a$10$hr0mNMX03GNNqYnxRlbnyevYQA9m5ZeqpEF9XjFzGtoBdzD7yTODO
+06-02-2019 19:06:34.661 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:06:35.843 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:06:35.844 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:06:35.867 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:06:35.883 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:06:39.051 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:06:39.065 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:15:39.629 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:15:41.051 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$dfaa8bfc.run Inicio de la Aplicacion
+06-02-2019 19:15:41.157 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$dfaa8bfc.run La contraseña 1234 es $2a$10$6DOXvl4Ly7MU7uF0ZvTi6eiDdCwowppjLrKmh8Rltjg8g2SbfdkcK
+06-02-2019 19:15:45.266 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:15:45.273 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:15:45.303 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:15:45.313 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:15:49.132 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:15:49.137 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:17:23.729 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:17:26.085 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$9bab4365.run Inicio de la Aplicacion
+06-02-2019 19:17:26.196 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$9bab4365.run La contraseña 1234 es $2a$10$0R.Dy6geGcf1pV/mdOyjgevtR8jPfc9Nu767HLdcd/7eWL1e5tq6W
+06-02-2019 19:17:29.758 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:17:29.773 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:17:29.792 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:17:29.801 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:17:33.316 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:17:33.329 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:17:33.336 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:18:47.151 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:18:48.552 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1231a775.run Inicio de la Aplicacion
+06-02-2019 19:18:48.659 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$1231a775.run La contraseña 1234 es $2a$10$dlxglTmQwdk2ykyUyX72kuLg2ouqwtRpssrIfNXf2ajlQ9/cabWLS
+06-02-2019 19:18:53.094 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:18:53.101 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:18:53.129 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:18:53.139 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:18:55.309 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:18:55.311 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:19:23.845 a.e.i.p.c.TaskRestController.addTask Hubo un problema en el Request
+06-02-2019 19:19:23.922 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:19:23.928 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:19:29.436 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:19:29.436 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:19:29.469 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:19:29.483 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:19:31.949 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:19:31.954 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:26:44.557 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:26:45.913 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a316e9ff.run Inicio de la Aplicacion
+06-02-2019 19:26:46.020 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a316e9ff.run La contraseña 1234 es $2a$10$S4EaPAqw2I9HwVjRZ2mzJOi/phPW7o5kg6rQ7K2wPZKbzh.lhdk1K
+06-02-2019 19:26:51.680 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:26:51.689 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:26:51.718 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:26:51.731 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:26:53.612 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:26:53.612 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:27:04.561 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported
+06-02-2019 19:27:04.651 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:27:04.653 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:27:26.516 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:27:26.526 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:27:26.572 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:27:26.593 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:27:29.413 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:27:29.417 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:30:00.533 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:30:01.751 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$fae7f443.run Inicio de la Aplicacion
+06-02-2019 19:30:02.246 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$fae7f443.run La contraseña 1234 es $2a$10$5ZHrT9nSWEkA/yXkGDCgmOiiWxbQul9ePdLpW5QbRb6txxQzvD07i
+06-02-2019 19:30:04.767 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:30:04.785 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:30:04.810 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:30:04.820 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:30:06.584 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:30:06.586 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:30:18.952 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 19:30:19.007 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:30:19.015 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:42:19.051 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:42:20.444 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$e7281a6.run Inicio de la Aplicacion
+06-02-2019 19:42:20.551 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$e7281a6.run La contraseña 1234 es $2a$10$41BZho9GBLCGKYTv2QuGt.VhW4aosJmgqhkpQtf6zpdkCBtMSOLUy
+06-02-2019 19:42:24.327 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:42:24.335 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:42:24.365 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:42:24.374 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:42:26.085 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:42:26.087 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:42:36.162 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:42:36.168 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:43:26.198 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:43:27.639 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ea3b9f1e.run Inicio de la Aplicacion
+06-02-2019 19:43:27.757 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$ea3b9f1e.run La contraseña 1234 es $2a$10$ERE.ZLN20BH/LvRaGw9wnefa1JJ8vphJzQwlzEFdx0RQ.gztvGF.W
+06-02-2019 19:43:29.750 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:43:29.757 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:43:29.780 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:43:29.792 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:43:31.753 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:43:31.775 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:44:12.031 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:44:12.033 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:44:43.814 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:44:45.203 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$de133888.run Inicio de la Aplicacion
+06-02-2019 19:44:45.309 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$de133888.run La contraseña 1234 es $2a$10$AY50E40mx5c2TGK.YJkP2us4HZ19eX9Bzob4NFUVFmz6e4QtNpGz6
+06-02-2019 19:44:48.611 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:44:48.618 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:44:48.649 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:44:48.658 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:44:49.965 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:44:49.971 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:44:56.828 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:44:56.838 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:45:23.215 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:45:23.225 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:45:23.257 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:45:23.260 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:45:25.335 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:45:25.339 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:45:33.702 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:45:33.712 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:48:16.468 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:48:18.043 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$54c6260d.run Inicio de la Aplicacion
+06-02-2019 19:48:18.152 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$54c6260d.run La contraseña 1234 es $2a$10$fxak0zzfERUGrHi7YCEoq.hb896OqPRidx2qOkFZa9rscMIdL8MzO
+06-02-2019 19:48:20.748 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:48:20.756 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:48:20.783 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:48:20.793 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:48:21.994 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:48:22.006 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:48:29.024 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:48:29.039 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:50:36.127 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:50:37.520 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a05ba7ab.run Inicio de la Aplicacion
+06-02-2019 19:50:37.638 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a05ba7ab.run La contraseña 1234 es $2a$10$/Xa24D4LAIQUZhIumbj.WeJ3zCbVXuN38.a76YWSC98wusY/vBBnu
+06-02-2019 19:50:42.293 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:50:42.301 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:50:42.331 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:50:42.341 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:50:43.223 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:50:43.227 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:50:43.231 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:50:48.625 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:50:48.633 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:50:48.635 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:52:12.501 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:52:13.949 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c6da8fe9.run Inicio de la Aplicacion
+06-02-2019 19:52:14.056 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c6da8fe9.run La contraseña 1234 es $2a$10$UNIjDej5nAwzWeqttg3VKOdMU/1KVditgb5bPSlM/aTn5tAL2T3Hi
+06-02-2019 19:52:54.290 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:52:55.649 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$172d1e16.run Inicio de la Aplicacion
+06-02-2019 19:52:55.757 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$172d1e16.run La contraseña 1234 es $2a$10$jxuIEqVM.wbAQ7q2kBSjFOjgmTXSLcqj7vb5FhrVmnAKooXjpLBmu
+06-02-2019 19:53:01.747 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:53:01.765 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:53:01.779 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:53:01.787 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:53:04.806 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:53:04.807 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:53:18.596 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: S1009
+06-02-2019 19:53:18.599 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions Can not issue data manipulation statements with executeQuery().
+06-02-2019 19:53:18.607 a.e.i.p.c.TaskRestController.updateTask Error interno del server
+06-02-2019 19:53:18.671 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:53:18.684 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:59:06.281 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 19:59:07.619 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3a37d58d.run Inicio de la Aplicacion
+06-02-2019 19:59:07.727 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3a37d58d.run La contraseña 1234 es $2a$10$PyOP4mG2CbeyPmGNr4Kd4eEOfqFjiR2CZPovSCtKaPSRXpFzNXv3.
+06-02-2019 19:59:19.625 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:59:19.632 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 19:59:19.665 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:59:19.673 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:59:21.860 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:59:21.866 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:59:29.449 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 19:59:29.453 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:29.810 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 20:01:31.304 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$23014ec6.run Inicio de la Aplicacion
+06-02-2019 20:01:31.410 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$23014ec6.run La contraseña 1234 es $2a$10$/yg0azFElE0jz97bRWa9KuJUojvPLWJYzHKGpeWYWR/J41bZrO5Rq
+06-02-2019 20:01:38.220 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:01:38.237 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:01:38.254 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:38.262 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:39.472 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:39.473 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:45.853 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:45.854 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:58.470 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:58.478 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:58.501 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:58.506 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:59.876 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:01:59.878 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:03:22.064 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 20:03:23.439 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$491de02a.run Inicio de la Aplicacion
+06-02-2019 20:03:23.545 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$491de02a.run La contraseña 1234 es $2a$10$0i5oiUsh.KyFIrXOWlvouOXXwXFzdvUWK2YORR02DU2zvJUXhI3JC
+06-02-2019 20:03:34.709 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:03:34.720 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:03:34.742 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:03:34.750 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:03:36.346 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:03:36.351 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:03:36.354 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:03:44.331 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:03:44.341 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:03:44.344 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:05:51.055 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 20:05:53.112 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$13dde6d3.run Inicio de la Aplicacion
+06-02-2019 20:05:53.219 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$13dde6d3.run La contraseña 1234 es $2a$10$q4ATCSJWYOHLm7fWvbPb3ONpDv7sXhuZ2lnnT2DO5nqMdoUFVImMS
+06-02-2019 20:06:25.416 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 20:06:27.002 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3235b138.run Inicio de la Aplicacion
+06-02-2019 20:06:27.129 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3235b138.run La contraseña 1234 es $2a$10$Bd7F/2fl2jHqgDch78geme27/BFcPEVfAv8hBCBwopk92ivxTXEqG
+06-02-2019 20:06:28.471 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:06:28.484 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:06:28.533 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:06:28.546 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:06:29.602 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:06:29.611 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:06:29.618 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:06:38.180 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:06:38.187 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:06:38.189 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:05.006 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:08:05.019 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:08:05.060 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:05.079 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:07.114 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:07.116 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:07.117 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:23.703 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:23.708 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:23.750 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:23.757 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:27.075 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:27.079 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:08:27.084 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:16.471 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 20:10:17.830 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3a37d58d.run Inicio de la Aplicacion
+06-02-2019 20:10:17.939 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3a37d58d.run La contraseña 1234 es $2a$10$r.EaanJp4paV0Wg6ExwfJ.QUaJrgKapkAOf7ezZ5AlGEt2L4TXqcW
+06-02-2019 20:10:22.092 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:10:22.099 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:10:22.130 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:22.138 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:23.323 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:23.334 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:35.010 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:35.015 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:45.718 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:45.718 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:45.728 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:51.913 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:51.928 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:55.430 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:10:55.438 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:02.583 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:02.590 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:08.991 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:09.006 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:09.006 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:13.845 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:11:13.885 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:13.905 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:13.912 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:15.348 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:11:15.394 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:15.411 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:15.419 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:17.582 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:17.597 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:17.601 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:19.183 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:19.195 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:11:19.197 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:13:10.997 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:13:10.997 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:13:11.008 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:13:21.804 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:13:21.810 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:13:21.819 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:23.772 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 20:14:25.227 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$68b5808d.run Inicio de la Aplicacion
+06-02-2019 20:14:25.335 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$68b5808d.run La contraseña 1234 es $2a$10$r6c2QKDxeYrtqq.BpYMTf.Kg56K3M/khMcuiLMQeTN3jTGmnIatR2
+06-02-2019 20:14:28.201 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:14:28.208 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:14:28.240 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:28.248 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:29.356 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:29.374 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:29.377 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:40.249 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:40.266 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:40.270 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:42.039 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:42.039 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:48.866 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:48.871 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:48.882 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:57.548 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:57.548 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:57.555 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:14:57.557 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:11.656 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:11.666 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:11.666 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:13.848 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:15:13.887 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:13.889 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:13.891 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:22.394 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:15:22.431 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:22.431 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:22.432 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:52.535 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:15:52.571 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:52.573 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:52.575 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:54.170 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:15:54.201 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:54.204 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:15:54.211 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:03.169 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:03.180 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:03.238 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:03.254 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:04.906 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:04.912 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:04.919 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:06.013 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:16:06.047 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:06.049 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:06.059 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:07.436 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:16:07.460 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:07.462 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:07.467 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:08.559 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:08.569 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:08.570 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:10.591 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:10.600 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:11.917 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:16:11.949 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:11.954 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:13.382 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:16:13.411 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:16:13.416 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:13.587 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 20:17:15.185 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$90a7d81b.run Inicio de la Aplicacion
+06-02-2019 20:17:15.292 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$90a7d81b.run La contraseña 1234 es $2a$10$YxOKbiOq5g5jJUKsMJ3uou6xkw0bGEGETXIkjW0trDHmzNu.U5mwe
+06-02-2019 20:17:17.330 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:17:17.338 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:17:17.371 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:17.381 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:18.657 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:18.658 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:22.008 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:22.018 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:24.149 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:24.156 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:26.096 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:26.105 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:27.521 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:27.531 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:29.823 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:29.830 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:29.834 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:31.034 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:17:31.065 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:31.067 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:31.068 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:33.095 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:17:33.125 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:33.128 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:17:33.132 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:09.259 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-02-2019 20:23:10.681 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$15a18b52.run Inicio de la Aplicacion
+06-02-2019 20:23:10.787 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$15a18b52.run La contraseña 1234 es $2a$10$pn/2tVMf0.IRn/dmoFlezucSg6SUQBa8PcbAOSQdQk0M/Rcnc0awi
+06-02-2019 20:23:18.427 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:23:18.436 a.e.i.p.c.TaskListRestController.getAllTaskListsBySprint No se encontro lo que se solicito
+06-02-2019 20:23:18.461 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:18.469 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:19.788 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:19.794 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:19.802 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:24.085 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+06-02-2019 20:23:24.119 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:24.122 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:24.130 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:32.345 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:32.351 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:32.368 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:32.367 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:34.852 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:34.852 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:34.864 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:34.875 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:36.912 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:36.919 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:36.924 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:36.925 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:38.126 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:38.127 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:38.136 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+06-02-2019 20:23:38.142 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito

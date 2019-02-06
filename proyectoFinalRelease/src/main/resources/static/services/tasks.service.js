@@ -30,6 +30,11 @@ angular.module('iw3')
         getTaskByID: function (id) {
             return $http.get(URL_API_BASE+"task/"+id+"");
 
+        },
+        updateTask: function (task) {
+            console.log("ENtro 1");
+            return $http.put(URL_API_BASE+"task/sprint", task);
+
         }
 
     }

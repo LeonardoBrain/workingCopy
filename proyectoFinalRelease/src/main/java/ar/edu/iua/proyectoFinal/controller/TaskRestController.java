@@ -58,9 +58,28 @@ public class TaskRestController {
             HttpServletRequest request) {
         try {
             task.setTaskId(id);
-
             Task task1 = taskBusiness.update(task, request.isUserInRole("ROLE_LIDER"));
             return new ResponseEntity<Task>(task1, HttpStatus.OK);
+        } catch (BusinessException e) {
+            log.error(e.getMessage());
+            return new ResponseEntity<Task>(HttpStatus.BAD_REQUEST);
+        } catch (NotFoundException e1) {
+            log.error(e1.getMessage());
+            return new ResponseEntity<Task>(HttpStatus.NOT_FOUND);
+        } catch (Exception e) {
+            log.error("Error interno del server");
+            return new ResponseEntity<Task>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
+
+    }
+    @PutMapping(value = {"/sprint"})
+    public ResponseEntity<Task> updateTask(
+            @RequestBody Task task) {
+        try {
+            System.out.println("Entro2");
+            taskBusiness.updateTask(task);
+            return new ResponseEntity<Task>(task, HttpStatus.OK);
         } catch (BusinessException e) {
             log.error(e.getMessage());
             return new ResponseEntity<Task>(HttpStatus.BAD_REQUEST);

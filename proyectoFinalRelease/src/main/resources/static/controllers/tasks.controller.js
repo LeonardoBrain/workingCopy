@@ -7,7 +7,7 @@ angular.module('iw3')
     $scope.dataList = ['TODO', 'Done', 'In Progress', 'Waiting', 'Backlog'];
     $scope.instancia = {};
     $scope.taskListToAdd={};
-    $scope.actualSprint = $rootScope.sprints[0] ;
+    $scope.actualSprint = $rootScope.sprints[0] || 'Sprint1';
     $scope.actualOrder = ' ';
     $scope.taskLists = {};
     $scope.taskListsToCreate = [];
@@ -28,6 +28,7 @@ angular.module('iw3')
 
     // CARGAR LAS LISTAS
     $scope.getAllTaskLists = function () {
+        $rootScope.getAllSprints();
         document.getElementById("addTaskButton").disabled = true;
         document.getElementById("addListButton").disabled = false;
         //INICIALIZA EL OBJETO LISTS PARA METERLE LAS LISTAS ADENTRO
@@ -268,9 +269,9 @@ angular.module('iw3')
     $scope.newTaskListModal = function(){
         $scope.sprintToAdd = $scope.actualSprint;
 
-        let k = 0;
+        var k = 0;
         for(var j=0 ; j<$scope.dataList.length ; j++){
-            let presente = false;
+            var presente = false;
 
             for(var i=0 ; i<$scope.taskLists.length ; i++){
                 if($scope.dataList[j]===($scope.taskLists[i].name)){
@@ -378,7 +379,44 @@ angular.module('iw3')
         });
     }
 
+    $scope.editTask = function(task){
 
+        var mi=$uibModal.open({
+            animation : true,
+            backdrop : 'static',
+            keyboard : false,
+            templateUrl : 'views/editTaskModal.html',
+            controller : 'EditTaskModalController',
+            controllerAs: '$editTaskModalCtrl',
+            size : 'large',
+            resolve : {
+                instancia : task
+            }
+        });
+
+        mi.result.then(
+            function(r){
+                $scope.instancia=r;
+                $scope.instancia.taskId = task.taskId;
+                $scope.instancia.taskList={};
+                $scope.instancia.taskList.name = task.taskList.name;
+                $scope.instancia.taskList.taskListId =  task.taskList.taskListId;
+                $scope.instancia.taskList.sprintName = task.taskList.sprintName;
+                $scope.updateTaskById();
+            },function(e){
+
+            });
+    }
+
+    $scope.updateTaskById = function(){
+        tasksService.updateTask($scope.instancia).then(
+            function (resp) {
+                $scope.getAllTaskLists();
+            }
+        );
+
+
+    }
 
 
 

@@ -5,6 +5,7 @@ import ar.edu.iua.proyectoFinal.model.Task;
 import ar.edu.iua.proyectoFinal.model.exception.BusinessException;
 import ar.edu.iua.proyectoFinal.model.exception.NotFoundException;
 import ar.edu.iua.proyectoFinal.model.persistance.FactoryDAO;
+import ar.edu.iua.proyectoFinal.model.persistance.TaskDAO;
 import ar.edu.iua.proyectoFinal.model.persistance.TaskRepository;
 import ar.edu.iua.proyectoFinal.utils.UtilFunctions;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +26,9 @@ public class TaskBusiness implements TaskBusinessI {
 
     @Autowired
     TaskRepository taskRepository;
+
+    @Autowired
+    TaskDAO taskDAO;
 
     @Override
     public Task add(Task task) throws BusinessException {
@@ -84,6 +88,14 @@ public class TaskBusiness implements TaskBusinessI {
         }
 
        return task;
+    }
+
+    @Override
+    public void updateTask(Task task) throws BusinessException, NotFoundException {
+
+        taskDAO.getInstance().update(task);
+
+
     }
 
     @Override

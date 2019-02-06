@@ -335,23 +335,30 @@ public class TaskDAO implements IGenericDAO<Task, Serializable> {
 
     @Override
     public void update(Task object) {
+        System.out.println("Entroooo");
         Session session = emf.unwrap(SessionFactory.class).openSession();
         Transaction tx = null;
-        Task task = session.get(Task.class, object.getTaskId());
+        //Task task = session.get(Task.class, object.getTaskId());
+        //System.out.println("Name"+ task.getName());
+
+
 
 
         try {
             tx = session.beginTransaction();
+            System.out.println("Entraaa4 "+ object.getName());
 
-            TaskList taskList= taskListRepository.findByName(object.getTaskList().getName());
-            task.setTaskList(taskList);
-            task.setModificactionDate(object.getModificactionDate());
+            //TaskList taskList= taskListRepository.findByName(object.getTaskList().getName());
+           // task.setTaskList(taskList);
+            //object.setModificactionDate(object.getModificactionDate());
 
-            session.update(task);
+            session.update(object);
             tx.commit();
 
         } catch (Exception e) {
             if (tx != null) {
+                System.out.println("Entraaa555");
+
                 tx.rollback();
             }
         } finally {
