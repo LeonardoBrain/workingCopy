@@ -36,6 +36,6 @@
     <button class="btn btn-primary" type="submit"
             ng-click="$taskModalCtrl.cancel()">Cancelar</button>
     <button class="btn btn-success"
-            type="submit" ng-click="$taskModalCtrl.ok()">Aceptar</button>
+            ng-show="$taskModalCtrl.mostrarBotonGuardar()" type="submit" ng-click="$taskModalCtrl.ok()">Aceptar</button>
 
 </div>

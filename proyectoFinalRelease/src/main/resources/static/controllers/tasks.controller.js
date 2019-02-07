@@ -161,7 +161,12 @@ angular.module('iw3')
                 $scope.instancia.taskList={};
                 $scope.instancia.taskList.name =  $scope.taskListToAdd.name;
                 $scope.instancia.taskList.taskListId =  $scope.taskListToAdd.id;
-                $scope.instancia.taskList.sprintName = $scope.actualSprint;
+                if(taskListId ===100){
+                    $scope.instancia.taskList.sprintName = 'Backlog';
+                }else{
+                    $scope.instancia.taskList.sprintName = $scope.actualSprint;
+
+                }
                 $scope.addTask();
             },function(e){
 
@@ -288,10 +293,10 @@ angular.module('iw3')
         }
 
 
-        for(var i=0 ; i<$scope.taskListsToCreate.length ; i++){
-
-            console.log("Lista: "+$scope.taskListsToCreate[i]);
-        }
+        // for(var i=0 ; i<$scope.taskListsToCreate.length ; i++){
+        //
+        //     console.log("Lista: "+$scope.taskListsToCreate[i]);
+        // }
 
             var mi2=$uibModal.open({
             animation : true,
@@ -314,6 +319,7 @@ angular.module('iw3')
 
                 $scope.listaToAdd=r;
                 $scope.listaToAdd.sprintName=$scope.sprintToAdd;
+                $scope.taskListsToCreate=[];
                 $scope.addTaskList();
             },function(e){
 
@@ -466,8 +472,6 @@ angular.module('iw3')
                 $scope.getAllTaskLists();
             }
         );
-
-
     }
 
 

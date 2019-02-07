@@ -3,9 +3,16 @@ angular.module('iw3').controller(
 
         var $taskModalCtrl=this;
         $taskModalCtrl.instancia=angular.copy(instancia);
+
         $taskModalCtrl.cancel=function(){
             $uibModalInstance.dismiss();
         };
+
+        $taskModalCtrl.mostrarBotonGuardar=function(){
+            var i=$taskModalCtrl.instancia;
+            return i.name && i.name.length>0  && i.priority && i.priority.length>0;
+        };
+
         $taskModalCtrl.ok=function(){
 
             $uibModalInstance.close($taskModalCtrl.instancia);

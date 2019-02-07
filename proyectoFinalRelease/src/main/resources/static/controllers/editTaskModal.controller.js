@@ -11,6 +11,10 @@ angular.module('iw3').controller(
             $uibModalInstance.close($editTaskModalCtrl.instancia);
 
         };
+        $editTaskModalCtrl.mostrarBotonGuardar=function(){
+            var i=$editTaskModalCtrl.instancia;
+            return i.name && i.name.length>0 ;
+        };
         $editTaskModalCtrl.showSaveButton=function(){
 
             return true;
