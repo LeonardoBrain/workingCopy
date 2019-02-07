@@ -94,7 +94,7 @@ public class ProyectoFinalApplicationTests {
 
 		Task originalTask = new Task("Test Task",ul.getCurrentTimeUsingDate(), ul.getCurrentTimeUsingDate(), 50.0, taskList, "Medium");
 
-		Task resultTask = taskBusiness.add(originalTask);
+		Task resultTask = taskBusiness.add(originalTask,true);
 
 		assertEquals(originalTask,resultTask);
 	}

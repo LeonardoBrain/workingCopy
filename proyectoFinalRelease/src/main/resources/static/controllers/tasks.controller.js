@@ -161,12 +161,12 @@ angular.module('iw3')
                 $scope.instancia.taskList={};
                 $scope.instancia.taskList.name =  $scope.taskListToAdd.name;
                 $scope.instancia.taskList.taskListId =  $scope.taskListToAdd.id;
-                if(taskListId ===100){
+                if(taskListId === 100){
                     $scope.instancia.taskList.sprintName = 'Backlog';
                 }else{
                     $scope.instancia.taskList.sprintName = $scope.actualSprint;
-
                 }
+
                 $scope.addTask();
             },function(e){
 
@@ -176,9 +176,16 @@ angular.module('iw3')
     $scope.addTask=function(){
         tasksService.addTask($scope.instancia).then(
             function(resp){
-                //scope.dataSource.push(resp.data);
+
+
+
+               if (resp.status===403) {
+                   bootbox.alert("You do not have permmision to perform that action");
+               }
                 $scope.instancia={};
                 $scope.getAllTaskLists();
+                $scope.loadBacklog();
+
             },
             function(err){}
         );
@@ -293,10 +300,10 @@ angular.module('iw3')
         }
 
 
-        // for(var i=0 ; i<$scope.taskListsToCreate.length ; i++){
-        //
-        //     console.log("Lista: "+$scope.taskListsToCreate[i]);
-        // }
+        for(var i=0 ; i<$scope.taskListsToCreate.length ; i++){
+
+            console.log("Lista: "+$scope.taskListsToCreate[i]);
+        }
 
             var mi2=$uibModal.open({
             animation : true,
@@ -319,7 +326,6 @@ angular.module('iw3')
 
                 $scope.listaToAdd=r;
                 $scope.listaToAdd.sprintName=$scope.sprintToAdd;
-                $scope.taskListsToCreate=[];
                 $scope.addTaskList();
             },function(e){
 
@@ -329,7 +335,7 @@ angular.module('iw3')
     $scope.addTaskList=function(){
         taskListService.addTaskList($scope.listaToAdd).then(
             function(resp){
-                $scope.listaToAdd={};
+                $scope.listaToAdd=[];
                 $rootScope.getAllSprints();
                 $scope.getAllTaskLists();
             },
@@ -358,19 +364,21 @@ angular.module('iw3')
             taskListService.getAllTaskListsByTaskListNameAndSprintName(taskListName, $scope.actualSprint).then(
                 function (resp) {
                     task.taskList = resp.data;
-                    tasksService.moveTask(task.taskId, task).then(function () {
-                        $scope.getAllTaskLists();
+                    tasksService.moveTask(task.taskId, task).then(function (resp) {
+
+                        if (resp.status===200){
+                            $scope.getAllTaskLists();
+                        } else if (resp.status===403){
+
+                            bootbox.alert("You do not have permmision to perform that action");
+                        }
+
                     });
                 },
                 function (reason) {
                 }
             );
-            {
-                task.taskList = resp.data;
-                tasksService.moveTask(task.taskId, task).then(function () {
-                    $scope.getAllTaskLists();
-                });
-            }
+
         }
 
     };
@@ -422,14 +430,14 @@ angular.module('iw3')
     }
 
     $scope.deleteTask = function(taskId){
-        if(!confirm("Desea eliminar la tarea seleccionada?"))
+        if(!confirm("Confirm delete?"))
             return;
         tasksService.deleteTask(taskId).then(function (resp) {
             if (resp.status===200){
                 $scope.getAllTaskLists();
             } else if (resp.status===403){
 
-                alert("No tiene permitido realizar esa accion");
+                alert("You do not have permmision to perform that action");
             }
 
         }, function (reason) {
@@ -472,6 +480,8 @@ angular.module('iw3')
                 $scope.getAllTaskLists();
             }
         );
+
+
     }
 
 

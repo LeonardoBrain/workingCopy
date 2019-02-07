@@ -31,17 +31,21 @@ public class TaskBusiness implements TaskBusinessI {
     TaskDAO taskDAO;
 
     @Override
-    public Task add(Task task) throws BusinessException {
+    public Task add(Task task, boolean isAdmin) throws BusinessException {
 
-        if (task.getTaskList().getName().equals("Backlog") && (task.getPriority().equals("High") || task.getPriority().equals("Medium") || task.getPriority().equals("Low"))) {
-
-            task.setCreationDate(utilFunctions.getCurrentTimeUsingDate());
-            task.setModificactionDate(utilFunctions.getCurrentTimeUsingDate());
-
-            return taskRepository.save(task);
-
-        } else {
+        if(!isAdmin){
             throw new BusinessException();
+        }else {
+            if (task.getTaskList().getName().equals("Backlog") && (task.getPriority().equals("High") || task.getPriority().equals("Medium") || task.getPriority().equals("Low"))) {
+
+                task.setCreationDate(utilFunctions.getCurrentTimeUsingDate());
+                task.setModificactionDate(utilFunctions.getCurrentTimeUsingDate());
+
+                return taskRepository.save(task);
+
+            } else {
+                throw new BusinessException();
+            }
         }
     }
 

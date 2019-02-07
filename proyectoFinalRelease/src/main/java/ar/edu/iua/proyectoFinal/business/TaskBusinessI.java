@@ -11,7 +11,7 @@ import java.util.List;
 
 public interface TaskBusinessI {
 
-    Task add (Task task) throws BusinessException;
+    Task add (Task task, boolean isAdmin) throws BusinessException;
     Task update (Task task, boolean isAdmin) throws BusinessException, NotFoundException;
     void updateTask (Task task) throws BusinessException, NotFoundException;
 

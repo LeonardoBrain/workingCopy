@@ -30,11 +30,13 @@ public class TaskRestController {
 
 
     @PostMapping(value = {"", "/"})
-    public ResponseEntity<Task> addTask(@RequestBody Task task) {
+    @PreAuthorize("hasRole('ROLE_LIDER')")
+    public ResponseEntity<Task> addTask(@RequestBody Task task,
+                                        HttpServletRequest request) {
         try {
 
 
-            taskBusiness.add(task);
+            taskBusiness.add(task,request.isUserInRole("ROLE_LIDER"));
             HttpHeaders responseHeaders =  new HttpHeaders();
             responseHeaders.set("location", "/task/" + task.getTaskId());
 
