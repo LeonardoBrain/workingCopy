@@ -1098,3 +1098,312 @@ org.springframework.aop.AopInvocationException: Null return value from advice do
 06-02-2019 20:23:38.127 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
 06-02-2019 20:23:38.136 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
 06-02-2019 20:23:38.142 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:31:20.942 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 00:31:22.675 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$63dd798a.run Inicio de la Aplicacion
+07-02-2019 00:31:22.778 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$63dd798a.run La contraseña 1234 es $2a$10$pz8ZnRGaFgZiCb/nDFwDkOdnuiAeobtNlLLilsKa16YHSSGasLyv.
+07-02-2019 00:31:44.695 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+07-02-2019 00:31:47.337 o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException Resolved exception caused by handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+07-02-2019 00:32:07.785 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:32:09.294 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:32:09.356 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:32:33.356 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:32:38.319 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:32:38.328 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:41:08.083 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 00:41:09.472 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6e8f09b0.run Inicio de la Aplicacion
+07-02-2019 00:41:09.585 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6e8f09b0.run La contraseña 1234 es $2a$10$Gs2OyVs/QTKQHSpO1dUzyeicuF1VMX6W9lNx1LWzETGI0OAEhAGe6
+07-02-2019 00:41:16.915 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:41:16.964 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:41:49.996 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 00:41:50.065 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:16:31.615 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 01:16:32.955 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a3e00c25.run Inicio de la Aplicacion
+07-02-2019 01:16:33.055 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a3e00c25.run La contraseña 1234 es $2a$10$IyTmB.3PT6wpmZGI3olZGOq7qgTmGzPSFuaFF5bFUWKpstIT3lW36
+07-02-2019 01:16:41.571 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:16:41.621 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:16:49.871 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:16:49.881 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:17:05.361 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:17:05.364 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:17:05.370 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:17:26.944 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:17:26.944 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:17:29.348 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:17:29.351 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:17:46.632 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:17:59.730 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:19:34.445 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 01:19:35.778 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$d47d6397.run Inicio de la Aplicacion
+07-02-2019 01:19:35.877 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$d47d6397.run La contraseña 1234 es $2a$10$.9kFCRgNhSo92rMNRJ331utJKV5rWgLMSqd3lkV9K3cIrRQXguH8O
+07-02-2019 01:19:55.944 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:19:55.990 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:21:13.968 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:21:13.987 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:21:13.987 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:21:16.095 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:21:16.099 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:21:18.397 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:24:38.185 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:24:47.116 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1452, SQLState: 23000
+07-02-2019 01:24:47.119 o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions Cannot add or update a child row: a foreign key constraint fails (`ProyectoFinal`.`task`, CONSTRAINT `FKnoop17o52c1kg73bskj5o4rdx` FOREIGN KEY (`task_list_id`) REFERENCES `task_list` (`task_list_id`))
+07-02-2019 01:24:47.134 o.h.i.ExceptionMapperStandardImpl.mapManagedFlushFailure HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+07-02-2019 01:24:47.150 a.e.i.p.c.TaskRestController.addTask could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+07-02-2019 01:24:47.204 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:25:00.781 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:25:00.821 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:25:17.170 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:25:17.220 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:25:23.412 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:25:23.414 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 01:25:23.422 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 10:47:14.459 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 10:47:16.210 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$118479d6.run Inicio de la Aplicacion
+07-02-2019 10:47:16.307 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$118479d6.run La contraseña 1234 es $2a$10$z28s3IESum5u6E3Hhladu.g9whY1vbPyGcgTve34VgdEGD46KkDXC
+07-02-2019 10:49:08.740 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 10:49:10.140 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$9f8ea0d7.run Inicio de la Aplicacion
+07-02-2019 10:49:10.237 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$9f8ea0d7.run La contraseña 1234 es $2a$10$2HthN/4C3YR3IhmKWRUvKeGshPl/.VhxGQzsbFo75EtLCFUgEgnJC
+07-02-2019 10:49:16.757 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 10:49:16.785 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 10:55:40.678 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 10:55:42.326 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$eb7e974c.run Inicio de la Aplicacion
+07-02-2019 10:55:42.441 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$eb7e974c.run La contraseña 1234 es $2a$10$qL7PkPI18sYuLMzZ.isr6OqC05pFrvUa1L7XmH8cUPEThY26gnYwe
+07-02-2019 10:55:45.430 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 10:55:45.448 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 10:57:01.558 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 10:57:01.613 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 10:57:42.713 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 10:57:44.151 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a576606c.run Inicio de la Aplicacion
+07-02-2019 10:57:44.250 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a576606c.run La contraseña 1234 es $2a$10$Gs6MTYXgnZUPtT53eLo1eeS8ZPLyfnpDd5JGlEFOkq2ITk4xK4qW2
+07-02-2019 10:57:52.176 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 10:57:52.202 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:01:59.748 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:02:01.664 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$861f7aec.run Inicio de la Aplicacion
+07-02-2019 11:02:01.762 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$861f7aec.run La contraseña 1234 es $2a$10$G1ImejnJZd2vxy/yS4rUhuB6pz9Gw4KpLnU6/9Gl9cPInAXvPj/em
+07-02-2019 11:02:40.200 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:02:41.745 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$b7028c8f.run Inicio de la Aplicacion
+07-02-2019 11:02:41.849 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$b7028c8f.run La contraseña 1234 es $2a$10$5aCOmDuZWc9gmW7SZ837zeKXHkQK1CpMcCrvZqPhKka/P/z5wh0zG
+07-02-2019 11:02:46.497 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:02:46.549 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:03:09.755 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:05:57.492 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:05:59.635 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6ab803a.run Inicio de la Aplicacion
+07-02-2019 11:05:59.760 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$6ab803a.run La contraseña 1234 es $2a$10$c/hXAgzEUQND8IJEseb1Uewup2xoTpxUxLzbfn9FIAeb5rEJTr1sy
+07-02-2019 11:09:49.629 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:09:51.071 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$79666400.run Inicio de la Aplicacion
+07-02-2019 11:09:51.169 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$79666400.run La contraseña 1234 es $2a$10$YA7KAZLmbjGeburm759mW.1H/fU9uB3lp3wBjLTE/rxwrRqh1mLqS
+07-02-2019 11:10:02.048 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:10:02.075 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:19:03.903 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:19:05.293 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$aca6f83e.run Inicio de la Aplicacion
+07-02-2019 11:19:05.390 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$aca6f83e.run La contraseña 1234 es $2a$10$Y5cd58NhujPrHZlensrpzeG6wI1mSKXhkf3WAOuRxeUMcjGYfEk/y
+07-02-2019 11:20:06.178 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:20:07.594 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$825cea87.run Inicio de la Aplicacion
+07-02-2019 11:20:07.692 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$825cea87.run La contraseña 1234 es $2a$10$QdC6j89qzyU6W9iYYGe2aej.sglf5e7VRTtTryg8FrfZcq.AMmHwq
+07-02-2019 11:21:22.813 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:21:24.211 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a5d5575c.run Inicio de la Aplicacion
+07-02-2019 11:21:24.310 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$a5d5575c.run La contraseña 1234 es $2a$10$IJaZSB1B9r1F1gDRceKD6OHVa3x6nt6XKDyp.JJfjeX0D7EMoJZOO
+07-02-2019 11:21:30.511 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:21:30.570 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:23:05.349 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:23:06.748 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c8e76400.run Inicio de la Aplicacion
+07-02-2019 11:23:06.854 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c8e76400.run La contraseña 1234 es $2a$10$2FtNythVrlpjv.zCBJxN2e1pgXfi.0jipBDYDla8R1L1ydRAXxV9O
+07-02-2019 11:23:09.732 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:23:09.751 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:24:28.638 o.a.catalina.session.StandardManager.log Exception loading sessions from persistent storage
+java.lang.ClassNotFoundException: ar.edu.iua.proyectoFinal.model.User
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader.loadClass(TomcatEmbeddedWebappClassLoader.java:70) ~[spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1137) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_181]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_181]
+	at org.apache.catalina.util.CustomObjectInputStream.resolveClass(CustomObjectInputStream.java:160) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2211) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2211) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573) ~[na:1.8.0_181]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431) ~[na:1.8.0_181]
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1611) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1077) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:217) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:161) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:351) ~[tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5273) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1420) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1410) [tomcat-embed-core-8.5.34.jar:8.5.34]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+07-02-2019 11:24:28.942 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'proyectoFinalApplication': Unsatisfied dependency expressed through field 'pe'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+07-02-2019 11:24:29.229 o.s.boot.SpringApplication.reportFailure Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'proyectoFinalApplication': Unsatisfied dependency expressed through field 'pe'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:548) ~[spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at ar.edu.iua.proyectoFinal.ProyectoFinalApplication.main(ProyectoFinalApplication.java:16) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1506) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:581) ~[spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	... 24 common frames omitted
+07-02-2019 11:24:33.271 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:24:34.045 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c8e76400.run Inicio de la Aplicacion
+07-02-2019 11:24:34.140 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$c8e76400.run La contraseña 1234 es $2a$10$/5JYx5jNzd3BVXpLq9rNGufWhv.jwJDaOYi5o1j3ZEa85Ot2hno7i
+07-02-2019 11:24:53.420 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:24:54.935 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$49d7af3f.run Inicio de la Aplicacion
+07-02-2019 11:24:55.035 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$49d7af3f.run La contraseña 1234 es $2a$10$q0E6XVdy2RtoapgUFJVL9.ROTSDBHB91AMFOqS2vi9NmBBzyJA7yO
+07-02-2019 11:25:12.363 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:25:12.403 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:26:23.120 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:26:25.060 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$63efaa32.run Inicio de la Aplicacion
+07-02-2019 11:26:25.160 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$63efaa32.run La contraseña 1234 es $2a$10$WwOT.6hCT9quR674rAm50.4udvv4DM5xvrB2AglMjiqTvzezTr5.6
+07-02-2019 11:26:38.987 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:26:39.018 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:27:32.210 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:27:33.905 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$4826255.run Inicio de la Aplicacion
+07-02-2019 11:27:34.009 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$4826255.run La contraseña 1234 es $2a$10$mAYUYvVT0PnsrsDPM9pJXOdPi2AERVMNrvwz6wLM5bLCW2EMWIko2
+07-02-2019 11:27:37.388 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:27:37.476 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:29:48.947 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:29:50.433 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$21266802.run Inicio de la Aplicacion
+07-02-2019 11:29:50.531 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$21266802.run La contraseña 1234 es $2a$10$HYJpSAVhe5ORXwd2Auu5Cu7ZvN.atRlmn9Y6eFnZYYtmQq.XdQ44G
+07-02-2019 11:30:17.739 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:30:19.156 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3a043fcf.run Inicio de la Aplicacion
+07-02-2019 11:30:19.252 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3a043fcf.run La contraseña 1234 es $2a$10$lD1ri2X4/LEiFXne2Rg9i.cj7iqNm8NaBxoDMFkie2iR3mLu6GiEm
+07-02-2019 11:30:36.304 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:30:36.347 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:31:21.003 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:31:21.678 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3a043fcf.run Inicio de la Aplicacion
+07-02-2019 11:31:21.773 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$3a043fcf.run La contraseña 1234 es $2a$10$hKmO3OMTPjklqfG/AmjwQ.IqDPVd0G.n5OZHbH3uK6BvYdOHS96oa
+07-02-2019 11:31:30.589 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:31:32.092 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$88f7adeb.run Inicio de la Aplicacion
+07-02-2019 11:31:32.188 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$88f7adeb.run La contraseña 1234 es $2a$10$sNhr.bga2sUlM4HYOSIwbO.rbiScsfHV9DhjVC0/nmzhpCRis/GCi
+07-02-2019 11:31:35.402 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:31:35.441 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:33:01.607 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:33:01.662 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:37:20.108 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:37:20.756 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$88f7adeb.run Inicio de la Aplicacion
+07-02-2019 11:37:20.854 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$88f7adeb.run La contraseña 1234 es $2a$10$xmxT3woP0VoMlT1yjM6E.udnUpMuqBlfV8V53lhnT.0A0HsL.9qBi
+07-02-2019 11:37:35.653 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:37:37.207 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$27e62df.run Inicio de la Aplicacion
+07-02-2019 11:37:37.310 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$27e62df.run La contraseña 1234 es $2a$10$HHrYc/zfJEpn/.VrqOAzLeRa4jhAvMoIRJizTbdSAmV0BUDt9Gyca
+07-02-2019 11:37:40.119 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:37:40.179 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:38:25.071 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:38:26.561 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$d56c6348.run Inicio de la Aplicacion
+07-02-2019 11:38:26.660 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$d56c6348.run La contraseña 1234 es $2a$10$s9KGhZm9k.qeBo9dwvj0WORAyekU6Ah1rQfEnb4OrOP.3KtADHHZm
+07-02-2019 11:38:31.711 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:38:31.738 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:38:34.071 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:38:39.010 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+07-02-2019 11:38:39.093 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:38:42.202 a.e.i.p.c.TaskRestController.moveTask Hubo un problema en el Request
+07-02-2019 11:38:42.273 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:40:58.210 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:40:59.618 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$15a8596e.run Inicio de la Aplicacion
+07-02-2019 11:40:59.716 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$15a8596e.run La contraseña 1234 es $2a$10$8PZZQQGACtXpHpuGaKMzaOlFW1sGYbxQbnuEulMG6fbc4SvDS0fW6
+07-02-2019 11:41:04.550 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:41:04.602 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:41:08.368 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:41:15.512 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:41:32.957 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:41:32.967 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:10.747 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 11:45:12.259 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2f94036e.run Inicio de la Aplicacion
+07-02-2019 11:45:12.359 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2f94036e.run La contraseña 1234 es $2a$10$VjR.WoxQG4.vychgjFCn1.LXtEdM1fXKyREuPb4HvQNPdrvn.R1D.
+07-02-2019 11:45:19.214 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:19.255 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:19.271 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:19.310 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:34.518 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:34.537 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:34.581 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:34.593 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:41.625 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:41.627 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:41.662 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:41.662 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 11:45:51.904 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:00:04.434 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 12:00:05.188 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2f94036e.run Inicio de la Aplicacion
+07-02-2019 12:00:05.299 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$2f94036e.run La contraseña 1234 es $2a$10$sXjoXSE6vh.dQzzJIo05MecQ9BykggqlQAjZY/nL.jj/qZVhwlVMC
+07-02-2019 12:03:10.617 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 12:03:12.019 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$56df6b2a.run Inicio de la Aplicacion
+07-02-2019 12:03:12.117 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$56df6b2a.run La contraseña 1234 es $2a$10$mi0d7tLATOg/G0p5RN09OeLaTbEneRq1wiavsMvuRhsyoq3U7lpaq
+07-02-2019 12:03:24.164 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:03:24.206 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:03:53.982 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2019 12:03:55.419 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$74d3ba57.run Inicio de la Aplicacion
+07-02-2019 12:03:55.517 a.e.i.p.ProyectoFinalApplication$$EnhancerBySpringCGLIB$$74d3ba57.run La contraseña 1234 es $2a$10$VT11339I6ZjrTeNSZUf3vOYaLUkmWYL4Cvsj2qu2Kv/Mein6sufI2
+07-02-2019 12:03:59.265 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:03:59.333 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:04:08.406 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:04:08.420 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:04:40.746 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:04:40.776 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:04:43.174 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:04:43.190 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:04:47.806 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:04:57.393 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:04:57.395 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:06.794 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:06.795 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:06.809 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:11.471 a.e.i.p.c.TaskListRestController.addListTask Hubo un problema en el Request
+07-02-2019 12:05:11.538 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:11.538 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:11.555 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:37.939 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:37.941 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:37.944 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:37.945 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:44.100 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:44.100 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:44.112 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:44.119 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:05:44.123 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:08:35.208 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:08:56.734 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:08:56.749 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:08:56.788 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:08:56.790 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:09:19.355 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:09:19.385 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:09:47.186 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:09:47.204 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:09:51.431 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:09:51.440 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:11:54.468 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito
+07-02-2019 12:11:54.469 a.e.i.p.c.TaskRestController.getAllTasksByTaskList No se encontro lo que se solicito

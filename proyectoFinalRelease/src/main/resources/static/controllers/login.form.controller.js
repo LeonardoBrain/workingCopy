@@ -16,6 +16,7 @@ function LoginFormController($rootScope, $scope, $location, $window, $log, $uibM
                     $rootScope.autenticado=true;
                     if($rootScope.cbauth)
                         $rootScope.cbauth();
+                    location.reload();
                 }else{
                     $rootScope.autenticado=false;
                     $rootScope.user.roles=[];

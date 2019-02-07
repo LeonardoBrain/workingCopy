@@ -120,6 +120,8 @@ angular.module('iw3')
 
             },
             function (reason) {  }
+
+
         );
 
     };
@@ -344,24 +346,74 @@ angular.module('iw3')
     //MOVER TAREA
     $scope.moveTask = function(task,taskListName){
 
-        taskListName === 'InProgress' ? taskListName='In Progress' : taskListName;
+        if(validateMoveTask(task, taskListName)) {
+            taskListName === 'InProgress' ? taskListName = 'In Progress' : taskListName;
 
-        taskListService.getAllTaskListsByTaskListNameAndSprintName(taskListName, $scope.actualSprint).then(
-            function (resp) {
-                task.taskList = resp.data;
-                tasksService.moveTask(task.taskId, task).then(function () {
-                    $scope.getAllTaskLists();
-                });
-            },
-            function(reason){}
-        ); {
+            taskListService.getAllTaskListsByTaskListNameAndSprintName(taskListName, $scope.actualSprint).then(
+                function (resp) {
+                    task.taskList = resp.data;
+                    tasksService.moveTask(task.taskId, task).then(function () {
+                        $scope.getAllTaskLists();
+                    });
+                },
+                function (reason) {
+                }
+            );
+            {
                 task.taskList = resp.data;
                 tasksService.moveTask(task.taskId, task).then(function () {
                     $scope.getAllTaskLists();
                 });
             }
+        }
 
     };
+
+    function validateMoveTask(task, taskListName){
+
+        //NO PASAR UNA TAREA DE DONE A CUALQUIER OTRA LISTA
+        if(task.taskList.name === 'Done'){
+            bootbox.alert("It is not possible to move a task from 'Done' to '"+taskListName+"'");
+            return false;
+        }
+
+        //QUE UNA TAREA QUE ESTA EN BACKLOG SOLO PUEDA PASAR A TODO
+        if(task.taskList.name === 'Backlog' && taskListName !=='TODO'){
+            bootbox.alert("It is not possible to move a task from 'Backlog' to '"+taskListName+"'. The task is only allowed to move to 'TODO'");
+            return false;
+        }
+
+        //QUE UNA TAREA QUE PASA A TODOO DEBA TENER TIEMPO ESTIMADO
+        if(taskListName === 'TODO' && (!task.estimatedTime || task.estimatedTime === 0)){
+            bootbox.alert("Estimated Time is required to move a task to 'TODO' list");
+            return false;
+        }
+
+        switch (task.taskList.name) {
+            case "In Progress":
+            case "TODO":
+            case "Waiting":
+                if(taskListName === "Backlog"){
+                    bootbox.alert("It is not possible to move a task from '"+task.taskList.name+"' to 'Backlog'. A task can not be moved back to 'Backlog'");
+                    return false;
+                }
+
+        }
+
+        /*switch(task.taskList.name){
+
+            case 'TODO':
+            case 'In Progress':
+            case 'Waiting':
+                if(taskListName === 'Backlog') {
+                    bootbox.alert("It is not possible to move a task from '"+task.taskList.name+"' to 'Backlog'");
+                    return false;
+                }
+        }*/
+
+        return true;
+
+    }
 
     $scope.deleteTask = function(taskId){
         if(!confirm("Desea eliminar la tarea seleccionada?"))

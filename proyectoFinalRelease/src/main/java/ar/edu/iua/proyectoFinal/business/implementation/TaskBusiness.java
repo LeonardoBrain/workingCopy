@@ -69,6 +69,8 @@ public class TaskBusiness implements TaskBusinessI {
                     }
                     break;
                 }
+            case "Done":
+                throw new BusinessException();
 
             case "TODO":
             case "In Progress":
